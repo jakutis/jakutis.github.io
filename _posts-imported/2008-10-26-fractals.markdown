@@ -1,0 +1,11 @@
+---
+layout: post
+title: !binary |-
+  RnJhY3RhbHM=
+wordpress_id: 207
+wordpress_url: !binary |-
+  aHR0cHM6Ly9qYWt1dC5pcy8/cD0yMDc=
+date: 2008-10-26 19:08:02.000000000 +00:00
+---
+http://flickr.com/search/?q=fractal
+http://www.37signals.com/svn/posts/1312-brassicaromanesco

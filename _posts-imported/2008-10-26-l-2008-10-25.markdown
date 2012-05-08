@@ -1,0 +1,26 @@
+---
+layout: post
+title: !binary |-
+  TC4yMDA4LTEwLTI1
+wordpress_id: 215
+wordpress_url: !binary |-
+  aHR0cHM6Ly9qYWt1dC5pcy8/cD0yMTU=
+date: 2008-10-26 01:35:40.000000000 +00:00
+---
+http://www.wait-till-i.com/2008/10/21/unsafe-search-playing-with-boss-and-yui3/
+
+http://www.theserverside.com/news/thread.tss?thread_id=51287
+
+http://science.slashdot.org/article.pl?sid=08/10/21/1914255&from=rss
+
+http://www.theserverside.com/news/thread.tss?thread_id=51292
+
+http://www.theserverside.com/news/thread.tss?thread_id=51294
+
+http://tech.slashdot.org/article.pl?sid=08/10/21/1657256&from=rss
+
+http://www.themaninblue.com/experiment/Blobular/
+
+http://www.linux.com/feature/150599
+
+http://ajaxian.com/archives/round-the-web-vector-graphics

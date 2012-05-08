@@ -1,0 +1,61 @@
+---
+layout: post
+title: !binary |-
+  U3RhdGUgb2YgSmF2YVNjcmlwdCB0ZXN0aW5n
+wordpress_id: 309
+wordpress_url: !binary |-
+  aHR0cHM6Ly9qYWt1dC5pcy8/cD0zMDk=
+date: 2012-01-04 18:21:36.000000000 +00:00
+---
+If you are just starting your JavaScript application development, you will need to write tests for your code. To help you with that, I've filtered an ordered (better ones on top) list of consideration-worth tools from <a href="https://github.com/joyent/node/wiki/modules">Node.JS modules</a> and Google. If you found a bug (there is a good tool not mentioned here, some tool is not working, etc.) in this post, please report it by writing a comment.
+
+<strong>CLI</strong> marks that the candidate has command line tool to run and display test results.
+<strong>WIP</strong> marks that the candidate is under heavy development.
+
+<h3>Browser Acceptance Testing</h3>
+<ol>
+<li><a href="https://github.com/assaf/zombie">zombie</a> is a lightweight framework for testing client-side JavaScript code in a simulated environment.</li>
+<li><a href="https://github.com/LearnBoost/tobi">tobi</a> allows you to test your web application as if it were a browser.</li>
+<li><a href="https://github.com/LearnBoost/soda">soda</a> (and <a href="https://github.com/doug-martin/soda-runner">soda-runner</a>) is a light-weight Selenium RC client for Node.JS with additional <a href="http://saucelabs.com/">Sauce Labs</a> integration for acceptance testing in the cloud.</li>
+<li><a href="http://code.google.com/p/js-test-driver/">js-test-driver</a> is a test runner which easily integrates with continuous builds systems and allows running tests on multiple browsers quickly to ease TDD style development.</li>
+</ol>
+
+<h3>Generic TDD and BDD</h3>
+<ol>
+<li><a href="https://github.com/visionmedia/mocha">mocha</a> is a simple, flexible, fun JavaScript test framework for Node.JS and the browser. <a href="http://www.adomokos.com/2012/01/javascript-testing-with-mocha.html">tutorial</a></li>
+<li><a href="http://vowsjs.org/">Vows</a> gives you synchronous behaviour driven development for Node.JS. <strong>CLI</strong></li>
+<li><a href="https://github.com/visionmedia/should.js">should.js</a> is an expressive, readable, test framework agnostic, assertion library for Node.JS.</li>
+<li><a href="https://github.com/philc/shoulda.js">shoulda.js</a> is a micro JavaScript unit testing framework inspired by Shoulda for Ruby.</li>
+<li><a href="http://chaijs.com/">Chai</a> is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework</li>
+<li><a href="https://github.com/caolan/nodeunit">Nodeunit</a> provides easy async unit testing for Node.JS and the browser. <strong>CLI</strong></li>
+<li><a href="https://github.com/kof/node-qunit">node-qunit</a> is a port of <a href="http://github.com/jquery/qunit">QUnit</a> unit testing framework to Node.JS. <strong>CLI</strong></li>
+<li><a href="https://github.com/cucumber/cucumber-js">Cucumber.js</a> is the popular Behaviour-Driven Development tool, brought to your JavaScript stack. It runs on both Node.JS and modern web browsers. <strong>CLI</strong> <strong>WIP</strong></li>
+<li><a href="https://github.com/nodejitsu/kyuri">kyuri</a> is a Node.JS Cucumber implementation with a few extra asynchronous keywords. It supports 160+ languages and exports to VowsJS stubs.</li>
+<li><a href="https://github.com/pivotal/jasmine">jasmine</a> (and <a href="https://github.com/mhevery/jasmine-node">jasmine-node</a>, and <a href="https://github.com/futuresimple/jessie">jessie</a>) is a behavior-driven development framework for testing your JavaScript code. <strong>CLI</strong> (used by <a href="http://shama.github.com/jmpress.js/">jmpress.js</a>)</li>
+<li><a href="https://github.com/tobiassvn/node-stories">node-stories</a> gives you lightweight Given/When/Then/And/But blocks with async-support for Node.JS.</li>
+<li><a href="https://github.com/kriszyp/patr">patr</a> is a very simple, easy-to-use test runner that support asynchronous JavaScript testing with promises. Part of <a href="http://www.persvr.org/">Persevere</a> project.</li>
+<li><a href="http://developer.yahoo.com/yui/yuitest/">YUI Test</a> is a testing framework for browser-based JavaScript solutions.<li>
+<li><a href="http://busterjs.org/">Buster.JS</a> is a JavaScript test framework for node and browsers.
+<li><a href="https://github.com/masylum/testosterone">Testosterone</a> allows you to follow BDD or TDD on any of your projects using the same testing library. <strong>CLI</strong></li>
+<li><a href="https://github.com/cloudkick/whiskey">whiskey</a> is a powerful test runner for Node.JS applications. <strong>CLI</strong></li>
+<li><a href="https://github.com/philjackson/twerp">Twerp</a> is a really simple, class based testing framework for Node.JS and CoffeeScript. <strong>CLI</strong></li>
+</ol>
+
+<h3>Mocking</h3>
+<ol>
+<li><a href="https://github.com/cjohansen/sinon.js">Sinon.JS</a> gives you standalone and test framework agnostic test spies, stubs and mocks.</li>
+<li><a href="https://github.com/felixge/node-gently">Gently</a> helps with stubbing and behavior verification. It allows you to test the most remote and nested corners of your code while keeping being fully unobtrusive.</li>
+<li><a href="https://github.com/pgte/nock">Nock</a> is an HTTP mocking and expectations library for Node.JS.</li>
+<li><a href="https://github.com/arunoda/nodemock">Node Mock</a> is a very simple to use mocking framework which can be used to mock functions in JavaScript objects. NodeMock creates mock methods in less code with more expressive manner.</li>
+<li><a href="https://github.com/arunoda/horaa">Horaa</a> mocks internal Node.JS modules.</li>
+<li><a href="https://github.com/mfncooper/mockery">Mockery</a> lets you work more easily with your framework of choice (or no framework) to get your mocks hooked in to all the right places in the code you need to test. Not a mocking framework.</li>
+<li><a href="https://github.com/assaf/node-replay">Node Replay</a> records and replays HTTP responses like a boss!!!11</li>
+<li><a href="https://github.com/bbyars/httpmock">httpmock</a> is a library for stubbing out web services without changing the system under test. It's designed for functional testing.</li>
+<li><a href="https://github.com/aaronpowell/tbd">tbd</a> allows you to generate some test data quickly and painlessly. Works with Node.JS and browser.</li>
+<li><a href="https://github.com/dhasenan/maryjane">MaryJane</a> is a mock objects library for javascript, inspired heavily by Mockito. It uses the Arrange-Act-Assert pattern.</li>
+</ol>
+
+<h3>Continuous Integration</h3>
+<ol>
+<li><a href="https://github.com/jquery/testswarm">TestSwarm</a> (and a plugin for Jenkins <a href="https://github.com/appendto/jenkins-testswarm">jenkins-testswarm</a>) gives you distributed continuous integration (used by jQuery at <a href="http://swarm.jquery.org/">swarm.jquery.org</a>).</li>
+</ol>

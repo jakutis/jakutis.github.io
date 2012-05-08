@@ -1,0 +1,23 @@
+---
+layout: post
+title: !binary |-
+  VsSXbGluxJdz
+wordpress_id: 203
+wordpress_url: !binary |-
+  aHR0cHM6Ly9qYWt1dC5pcy8/cD0yMDM=
+date: 2008-11-01 22:24:01.000000000 +00:00
+---
+Šiandien pasidariau dar vieną darbo aplinkos variantą:
+<ul>
+<li>host operating system - ubuntu linux 8.10 amd64</li>
+<li>vmware workstation 6.5 (30 day evaluation, užteks, nes per tą laiką bus nusistovėjęs virtual machine'ų rinkinys)</li>
+<li>virtual windows xp vmdk (for Netbeans with JavaFX, all operas, all mozillas, latest google chrome, latest safari, latest internet explorer)</li>
+<li>virtual windows xp vmdk (internet explorer v6)</li>
+<li>virtual windows 2000 vmdk (internet explorer v5)</li>
+<li>virtual windows 98 vmdk (internet explorer v4)</li>
+<li>gentoo hardened linux physical disk (centrinė darbo aplinka)</li>
+</ul>
+
+Rinkčiausi Virt-Manager + KVM, bet kad vmware workstation veikia daug sparčiau. Be to, VMWare Workstation stabiliai palaiko DirectX 9.0c 3D akseleraciją. Nors deja, mano turimų raw disk image'ų (su kvm/qemu naudotų) neišeis panaudot, nes vmware workstation ant Ubuntu negali atidaryti su losetup pakurto disko, kaip fizinio. Konvertavimas ne alternatyva.
+
+Vakare praėjau Sielų Upe - taką nuo Soboro iki Katedros apšviečia 4064 VU KHF SA uždegtos žvakutės. Šiemet tai yra ilgiausias takas iš visų šešių buvusių. Sako, kad nori atgaivint Vėlines, apramint Helloween'o linksmybes.

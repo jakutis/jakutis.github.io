@@ -1,0 +1,19 @@
+---
+layout: post
+title: !binary |-
+  TC4yMDA4LTEwLTI0
+wordpress_id: 201
+wordpress_url: !binary |-
+  aHR0cHM6Ly9qYWt1dC5pcy8/cD0yMDE=
+date: 2008-10-26 02:02:54.000000000 +00:00
+---
+#s60: dictaphone, msdict, callrecorder, ftp
+#pngcrush
+#Respond squish
+#Javarebel eclipse
+#OpenFiler
+#SOC 2008 DepAn
+#navigaya.com
+#siri
+#Classtell
+#social media classroom
