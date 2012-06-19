@@ -14,8 +14,11 @@ Visus užsiregistravusius http://codingsummit.com/ svetainėje kviečiame pasiim
 stalo!
 
 Registracija: [http://codingsummit.com/](codingsummit.com)
+
 Vieta: KTU StartupSpace, Studentų g. 67, Kaunas, Lietuva.
+
 Laikas: 2012-06-29 18:00 - 22:00.
+
 Programa:
 
     18:00 - 18:05 Įžanga "StartupSpace pristatymas"
@@ -25,4 +28,5 @@ Programa:
     22:00         Uždaromoji diskusija
 
 Lauksime jūsų,
+
 KTU StartupSpace programuotojų bendruomenė.
