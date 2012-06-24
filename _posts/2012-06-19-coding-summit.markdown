@@ -13,7 +13,7 @@ Visus užsiregistravusius http://codingsummit.com/ svetainėje kviečiame pasiim
 18:00 atvykti į KTU StartupSpace plotą. Taip pat renginio pertraukos metu dalinsimės įspūdžiais prie picų
 stalo!
 
-Registracija: [http://codingsummit.com/](codingsummit.com)
+Registracija: [codingsummit.com](http://codingsummit.com/)
 
 Vieta: KTU StartupSpace, Studentų g. 67, Kaunas, Lietuva.
 
