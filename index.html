@@ -5,7 +5,7 @@ layout: default
     <h1>Latest posts</h1>
 </div>
 
-<ul>
+<ul class="app-posts">
 {% for post in paginator.posts %}
     <li><span class="label">{{ post.date }}</span><br><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
