@@ -1,8 +1,6 @@
 ---
 layout: post
-title: !binary |-
-  YSBwaHAgc2NyaXB0IHRvIHJlcHJlc2VudCBhIGRpcmVjdG9yeSBhcyBhIHBv
-  ZGNhc3Q=
+title: a php script to represent a directory as a podcast
 wordpress_id: 521
 wordpress_url: !binary |-
   aHR0cHM6Ly9qYWt1dC5pcy8/cD01MjE=
