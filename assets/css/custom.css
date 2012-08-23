@@ -3,6 +3,6 @@ ul.app-posts li {
     padding-bottom: 20px;
 }
 
-.highlight {
+.highlight pre {
     background: #1c1c1c;
 }
