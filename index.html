@@ -1,6 +1,5 @@
 ---
-layout: page
-title: A personal web log
+layout: post
 ---
 {% for post in paginator.posts %}
 <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -8,7 +7,6 @@ title: A personal web log
 <p>{{ post.content }}</p>
 {% endfor %}
 
-<!-- Pagination links -->
 <div class="pagination">
     <ul>
         <li class="prev">
