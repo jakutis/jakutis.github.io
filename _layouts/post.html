@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-{% if post.title %}
 <div class="page-header">
-    <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-    <p>{{ post.date | date_to_string }}</p>
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 </div>
-{% endif %}
+
 <div class="row">
   <div class="span12">
-    {{ post.content }}
+    {{ content }}
   </div>
 </div>
