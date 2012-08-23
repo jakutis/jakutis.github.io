@@ -14,7 +14,7 @@ So this Caturday was yet another Hackday.
 The cause of this one is [a post on Hacker News](http://news.ycombinator.com/item?id=2347428).
 Without further ado, I present you - Popularity - a Google Chrome Extension that shows a badge with a number of times the current tab web page is shared on various social networks - currently only Twitter, Facebook, LinkedIn and Google Buzz.
 
-![Screenshot](/assets/images/popularity.jpg)
+![Screenshot](/img/popularity.jpg)
 
 Links:
 *   [Popularity on Chrome WebStore](https://chrome.google.com/webstore/detail/hfmcbpmainfbjjhbdbfdmdamljomfboh)
