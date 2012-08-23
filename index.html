@@ -2,9 +2,12 @@
 layout: post
 ---
 {% for post in paginator.posts %}
-<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{ post.date | date_to_string }}</p>
-<p>{{ post.content }}</p>
+
+<div class="page-header">
+    <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+    <p>{{ post.date | date_to_string }}</p>
+</div>
+
 {% endfor %}
 
 <div class="pagination">
