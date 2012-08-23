@@ -3,7 +3,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: ["_posts-imported"]
 auto: true
 pygments: true
-paginate: 3
+paginate: 10
 safe: true
 production_url : https://jakut.is
 url : https://jakut.is
