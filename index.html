@@ -5,11 +5,11 @@ layout: default
     <h1>Latest posts</h1>
 </div>
 
+<ul>
 {% for post in paginator.posts %}
-<div class="page-header">
-    <h2><span class="label">{{ post.date }}</span><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-</div>
+    <li><span class="label">{{ post.date }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+</ul>
 
 <div class="pagination">
     <ul>
