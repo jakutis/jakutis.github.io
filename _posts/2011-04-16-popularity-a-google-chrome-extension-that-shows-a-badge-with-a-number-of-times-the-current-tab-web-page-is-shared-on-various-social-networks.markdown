@@ -18,4 +18,4 @@ Without further ado, I present you - Popularity - a Google Chrome Extension that
 
 Links:
 *   [Popularity on Chrome WebStore](https://chrome.google.com/webstore/detail/hfmcbpmainfbjjhbdbfdmdamljomfboh)
-*   [Popularity on git](http://jakut.is/git/POPULARITY/about/)
+*   [soure code repository of Popularity](http://jakut.is/git/POPULARITY/)
