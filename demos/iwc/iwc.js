@@ -11,12 +11,12 @@ w.iwc = function(lazy) {
             return 0;
         }
     };
-    w.addEventListener('mousedown', function() {
+    w.mousedown = function() {
         var clicks = getClicks();
         clicks += 1;
         w.store.set(ns + '.clicks', JSON.stringify(clicks));
         updateTitle();
-    }, false);
+    };
 
     var check = (function() {
         var pclicks = getClicks();
