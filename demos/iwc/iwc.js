@@ -11,7 +11,7 @@ w.iwc = function(lazy) {
             return 0;
         }
     };
-    w.onmousedown = function() {
+    w.document.onmousedown = function() {
         var clicks = getClicks();
         clicks += 1;
         w.store.set(ns + '.clicks', JSON.stringify(clicks));
