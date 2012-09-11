@@ -2,15 +2,7 @@
 <html>
     <body>
         <p>This is a demo for an inter window communication.</p>
-        <p>Open another tab of this web page and then click anywhere in the window.</p>
-        <pre>
-Works as intended on:
-  - Mozilla Firefox 2.0 and later
-  - Opera 10.50 and later
-  - Google Chrome 5
-  - Microsoft Internet Explorer 6
-  - Apple Safari 4.0
-        </pre>
+        <p>Open another tab of this web page, click anywhere in the window and see a list update with the same items in all tabs.</p>
         <ul id="log">
         </ul>
         <script>
@@ -25,15 +17,16 @@ window.log = function() {
 };
         </script>
         <script src="json2.js"></script>
-        <script src="iwc.js"></script>
+        <script src="bazaar.js"></script>
         <script>
-if(iwc === null) {
+var b = bazaar('bazaar-worker.js');
+if(b === null) {
     log('your web browser is not supported');
 } else {
     document.onmousedown = function() {
-        iwc.broadcast(new Date().getTime());
+        b.broadcast(new Date().getTime());
     };
-    iwc.listen(function(ts) {
+    b.listen(function(ts) {
         log(ts);
     });
 }
