@@ -1,14 +1,42 @@
+<!DOCTYPE html>
 <html>
     <body>
-        <p>This is a demo for an instant inter window communication.</p>
-        <p><a href="lazy.html">demo for a lazy inter window communication</a></p>
+        <p>This is a demo for an inter window communication.</p>
         <p>Open another tab of this web page and then click anywhere in the window.</p>
-        <script src="store.min.js"></script>
-        <script src="requestAnimationFramePolyfill.js"></script>
+        <pre>
+Works as intended on:
+  - Mozilla Firefox 2.0 and later
+  - Opera 10.50 and later
+  - Google Chrome 5
+  - Microsoft Internet Explorer 6
+  - Apple Safari 4.0
+        </pre>
+        <ul id="log">
+        </ul>
+        <script>
+window.log = function() {
+    var el = document.getElementById('log');
+    var args = [].slice.apply(arguments, [0]);
+    var dumps = [];
+    for(var i = 0; i < args.length; i += 1) {
+        dumps.push((typeof args[i]) + '(' + args[i] + ')');
+    }
+    el.innerHTML = "<li>" + dumps + "</li>" + el.innerHTML;
+};
+        </script>
         <script src="json2.js"></script>
         <script src="iwc.js"></script>
         <script>
-            iwc(false);
+if(iwc === null) {
+    log('your web browser is not supported');
+} else {
+    document.onmousedown = function() {
+        iwc.broadcast(new Date().getTime());
+    };
+    iwc.listen(function(ts) {
+        log(ts);
+    });
+}
         </script>
     </body>
 </html>
