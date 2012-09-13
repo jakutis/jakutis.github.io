@@ -1,6 +1,16 @@
 # Bazaar
 
-A publish-subscribe (broadcast-listen) layer for same-origin inter-window communication.
+Description: A publish-subscribe (broadcast-listen) layer for same-origin inter-window communication
+
+Home page: [jakut.is/git/BAZAAR/about](https://jakut.is/git/BAZAAR/about/)
+
+[npm](https://npmjs.org) package: [bazaar](https://npmjs.org/package/bazaar)
+
+[jam](http://jamjs.org) package: [bazaar](http://jamjs.org/packages/#/details/bazaar)
+
+License: [MIT](https://jakut.is/git/BAZAAR/plain/LICENSE)
+
+Author: [Vytautas Jakutis](https://jakut.is)
 
 # Example usage
 
@@ -29,11 +39,3 @@ A publish-subscribe (broadcast-listen) layer for same-origin inter-window commun
   - Google Chrome 5+
   - Microsoft Internet Explorer 6+
   - Apple Safari 4.0+
-
-# License
-
-[MIT](https://jakut.is/git/BAZAAR/plain/LICENSE)
-
-# Authors
-
-  * [Vytautas Jakutis](https://jakut.is)

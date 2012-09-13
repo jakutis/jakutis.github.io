@@ -37,7 +37,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     } else {
         context[name] = definition(name, context);
     }
-})('bazaar', this, function (name, w) {
+})('bazaar', this, function (name, context) {
+    var w = window;
     return function(workerURL, ns) {
         var broadcast, listen, w3 = !!w.addEventListener, get, set;
         ns = ns || '__bazaar__';
@@ -112,7 +113,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                         }
                 });
             })();
-        } else {
+        }
+        if(storage !== null) {
+            try {
+                w.document.appendChild(w.document.createElement('script'));
+            } catch(e) {
+                storage = null;
+            }
+        }
+        if(storage === null) {
             if(test('localStorage', w)) {
                 storage = w.localStorage;
             } else if(test('globalStorage', w) && test(w.location.hostname, w.globalStorage)) {
