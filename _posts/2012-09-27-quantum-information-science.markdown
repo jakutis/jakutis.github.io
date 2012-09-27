@@ -5,7 +5,7 @@ date: 2012-09-27
 ---
 # Context
 
-This tuesday, 2012-09-25, the first class from the Seminar for Issues in Applied Mathematics course at Kaunas University Technology took place.
+This tuesday, 2012-09-25, the first class from [the Seminar for Issues in Applied Mathematics course at Kaunas University Technology](http://uais.cr.ktu.lt/plsql/mod_dest/stp_report_ects.mdl_ml?p_kodas=P160M106&p_year=2012&p_lang=LT&p_stp_id=4154) took place.
 The topic was chosen to be [Quantum mechanics](http://en.wikipedia.org/wiki/Introduction_to_quantum_mechanics), [Quantum computing](http://en.wikipedia.org/wiki/Quantum_computer) and [Quantum information](http://en.wikipedia.org/wiki/Quantum_information_science).
 In this website of mine I would like to share links to latest news and important information that I or my colleagues find on the internet.
 
