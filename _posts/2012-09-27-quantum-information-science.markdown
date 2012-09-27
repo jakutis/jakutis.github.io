@@ -9,7 +9,9 @@ In this website of mine I would like to share links to latest news and important
 
 To start, here's an accessible and practical video from IBM:
 
+
 <iframe width="560" height="315" src="http://www.youtube.com/embed/_NRmOe1b8_s" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
 
 And there's this entertaining talk:
 http://yow.eventer.com/events/1004/talks/1028
