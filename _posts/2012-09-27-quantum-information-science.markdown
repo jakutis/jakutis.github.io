@@ -25,8 +25,13 @@ And there's this entertaining talk [Temporally Quaquaversal Virtual Nanomachine]
 * [post-quantum-cryptography tag on crypto stackexchange](http://crypto.stackexchange.com/questions/tagged/post-quantum-cryptography)
 * [quantum-computing tag on cstheory stackexchange](http://cstheory.blogoverflow.com/tag/quantum-computing/)
 
-# Free courses
+# Courseware
 
 * [Exploring Quantum Physics at Coursera](https://www.coursera.org/course/eqp)
 * [Quantum Mechanics and Quantum Computation at Coursera](https://www.coursera.org/course/qcomp)
 * [qccourse subreddit](http://www.reddit.com/r/qccourse)
+* [Qubits, Quantum Mechanics, and Computers at Berkeley, Spring 2012](http://www-inst.eecs.berkeley.edu/~cs191/sp12/)
+* [Quantum Computation at Berkeley, Spring 2009](http://www.cs.berkeley.edu/~vazirani/s09quantum.html)
+* [Quantum Computation at Berkeley, Spring 2007](http://www.cs.berkeley.edu/~vazirani/quantum.html)
+* [Qubits, Quantum Mechanics and Computers at Berkeley, Spring 2005](http://www-inst.eecs.berkeley.edu/~cs191/sp05/)
+* [Quantum Computation at Berkeley, Fall 2004](http://www.cs.berkeley.edu/~vazirani/f04quantum/quantum.html)
