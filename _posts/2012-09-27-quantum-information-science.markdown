@@ -8,4 +8,5 @@ The topic was chosen to be Quantum Mechanics, Quantum Computing and Quantum Info
 In this website of mine I would like to share links to latest news and important information that I or my colleagues find on the internet.
 
 To start, here's an accessible and practical video from IBM:
+
 <iframe width="560" height="315" src="http://www.youtube.com/embed/_NRmOe1b8_s" frameborder="0" allowfullscreen></iframe>
