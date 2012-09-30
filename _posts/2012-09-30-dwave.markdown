@@ -5,11 +5,11 @@ date: 2012-09-30
 ---
 # D-Wave
 
-  * [technology](http://www.dwavesys.com/en/technology.html)
-  * [developer portal](http://www.dwavesys.com/en/dev-portal.html)
-     * [quantum computing primer](http://www.dwavesys.com/en/dev-tutorial-intro.html)
-     * [quantum computing tutorials](http://www.dwavesys.com/en/dev-tutorials.html)
-  * [blog](http://dwave.wordpress.com/)
+* [technology](http://www.dwavesys.com/en/technology.html)
+* [developer portal](http://www.dwavesys.com/en/dev-portal.html)
+  * [quantum computing primer](http://www.dwavesys.com/en/dev-tutorial-intro.html)
+  * [quantum computing tutorials](http://www.dwavesys.com/en/dev-tutorials.html)
+* [blog](http://dwave.wordpress.com/)
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/6VIAL8gQRTI" frameborder="0" allowfullscreen="allowfullscreen">
 </iframe>
@@ -19,5 +19,5 @@ date: 2012-09-30
 
 # News
 
-  * [Quantum Computer News at Science Daily](http://www.sciencedaily.com/news/computers_math/quantum_computers/)
-  * [News from quantum world at Quantiki Portal](http://www.quantiki.org/news)
+* [Quantum Computer News at Science Daily](http://www.sciencedaily.com/news/computers_math/quantum_computers/)
+* [News from quantum world at Quantiki Portal](http://www.quantiki.org/news)
