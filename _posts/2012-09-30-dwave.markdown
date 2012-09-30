@@ -11,10 +11,10 @@ date: 2012-09-30
      * [quantum computing tutorials](http://www.dwavesys.com/en/dev-tutorials.html)
   * [blog](http://dwave.wordpress.com/)
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/6VIAL8gQRTI" frameborder="0" allowfullscreen>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/6VIAL8gQRTI" frameborder="0" allowfullscreen="allowfullscreen">
 </iframe>
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/PqSgmCg1kew" frameborder="0" allowfullscreen>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/PqSgmCg1kew" frameborder="0" allowfullscreen="allowfullscreen">
 </iframe>
 
 # News
