@@ -6,18 +6,18 @@
     </head>
     <body>
         <div id="content"></div>
-        <script src="navigate.js"></script>
+        <script src="/demos/navigate/navigate.js"></script>
         <script>
             navigate(/^\/paramsDemo\/(.*)\/(.*)$/, function(from, to, params) {
                 document.getElementById('content').innerHTML = 'Navigated from ' + from + ' to '
                     + to + ' with params: ' + params;
             });
             navigate(/^\/$/, function(from, to, params) {
-                document.getElementById('content').innerHTML = '<a href="/paramsDemo/abc/123">'
+                document.getElementById('content').innerHTML = '<a href="/demos/navigate/paramsDemo/abc/123">'
                     + 'Parameters demonstration</a>';
             });
             navigate({
-                basePath : window.location.pathname
+                basePath : '/demos/navigate'
             });
             navigate();
         </script>
