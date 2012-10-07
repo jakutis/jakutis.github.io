@@ -15,6 +15,7 @@ date: 2012-10-07
 # Quantum computing
 
 * [The CIA and Jeff Bezos Bet on Quantum Computing](http://www.technologyreview.com/news/429429/the-cia-and-jeff-bezos-bet-on-quantum-computing/)
+* [Quantum computing - A quantum hop](http://www.economist.com/node/16422424)
 * [More Certainty On Uncertainty's Quantum Mechanical Role](http://www.sciencedaily.com/releases/2012/10/121004121638.htm) - University of Toronto scientists' experiments' results tell that the original Heisenberg Uncertainty principle is less accurate than the measurement-disturbance relationship was computed by Masanao Ozawa. This is bad news for quantum cryptography, because it relies on the principle that measurement causes disturbance.
 * [Quantum Computing](http://plato.stanford.edu/entries/qt-quantcomp/) - an excellent introduction
 * [PHYS771 Quantum Computing Since Democritus](http://www.scottaaronson.com/democritus/default.html) - a Fall 2006 course at University of Waterloo
