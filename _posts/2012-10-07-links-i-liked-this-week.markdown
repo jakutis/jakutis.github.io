@@ -14,7 +14,6 @@ date: 2012-10-07
 
 # Quantum computing
 
-* [ http://dx.doi.org/10.1103/PhysRevLett.109.070502 ]( Coherence-Protected Quantum Gate by Continuous Dynamical Decoupling in Diamond ) - [Dressed atoms get to be qubits for longer, show promise for quantum computing](http://arstechnica.com/science/2012/10/dressed-atoms-get-to-be-qubits-for-longer-show-promise-for-quantum-computing/)
 * [The CIA and Jeff Bezos Bet on Quantum Computing](http://www.technologyreview.com/news/429429/the-cia-and-jeff-bezos-bet-on-quantum-computing/)
 * [Quantum computing - A quantum hop](http://www.economist.com/node/16422424)
 * [Machine Learning with Quantum Algorithms](http://googleresearch.blogspot.com/2009/12/machine-learning-with-quantum.html)
