@@ -31,6 +31,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     } : function(obj, eventType, listener) {
         obj.addEventListener(eventType, listener, false);
     };
+    var hasAttribute = typeof w.document.body.hasAttribute === 'undefined' ? function(el, attr) {
+        return el.attributes[attr].specified;
+    } : function(el, attr) {
+        return el.hasAttribute(attr);
+    };
     html5 = 'onpopstate' in w;
     regexps = [];
     handlers = [];
@@ -164,6 +169,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         if (w.location.port) {
             origin += ':' + w.location.port;
         }
+        if(!hasAttribute(el, 'href')) {
+            return;
+        }
         var href = el.href;
         if(!(typeof el.hostname === 'string' && el.hostname === '') && href.indexOf(origin) !== 0) {
             return;
@@ -204,7 +212,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                         w.setTimeout(function() {
                             navigate(getCurrentPath());
                         }, 0);
-                    } else if(path !== '/favicon.ico') {
+                    } else {
                         w.location.href = opts.basePath + '/#' + path;
                     }
                 }
