@@ -9,7 +9,6 @@ date: 2012-10-14 21:01:56.000000000 +00:00
   * [Quantum computing in the newz](http://www.scottaaronson.com/blog/?p=1136)
   * [Physics Nobel for quantum optics](http://www.nature.com/news/physics-nobel-for-quantum-optics-1.11560)
   * [Manipulators of Quantum Realm Lauded](http://www.sciencemag.org/content/338/6104/179.summary)
-* [http://www.youtube.com/watch?v=KJe9H6qS82I]
 * [From Los Alamos to Stockholm](http://www.nature.com/nature/journal/v490/n7419_supp/full/490S13a.html)
 * [Tapping Quantum Effects for Software that Learns](http://www.technologyreview.com/news/424163/tapping-quantum-effects-for-software-that-learns/)
 * [Topology: The Secret Ingredient In The Latest Theory of Everything](http://www.technologyreview.com/view/429528/topology-the-secret-ingredient-in-the-latest/)
@@ -38,3 +37,4 @@ date: 2012-10-14 21:01:56.000000000 +00:00
 * [RR Developer Environments](http://rubyrogues.com/0074-rr-developer-environments)
 * [Big Data Is Creating Big Job Demand](http://www.readwriteweb.com/enterprise/2012/10/got-code-get-a-job.php)
 * [228 data sets for machine learning](http://archive.ics.uci.edu/ml/datasets.html)
+* [SmoothLifeL](http://www.youtube.com/watch?v=KJe9H6qS82I)
