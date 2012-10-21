@@ -24,11 +24,9 @@ date: 2012-10-21
 * [Joint Quantum Institute](http://jqi.umd.edu/)
 * [Institute for Quantum Computing](http://iqc.ca/)
   * [Institute for Quantum Computing](http://www.youtube.com/quantumiqc) - YouTube
-
 * [Institute for Quantum Information](http://www.iqi.caltech.edu/)
 * [LANL | Centers | Quantum Institute](http://lanl.gov/science/centers/quantum/)
   * [Quantum Information Science and Technology Roadmapping Project](http://qist.lanl.gov/)
-
 * [Institute for Quantum Information Science at the University of Calgary](http://iqis.org/)
 
 # Various
@@ -49,7 +47,7 @@ date: 2012-10-21
 * [The Ins and Outs of Invalidation](https://blog.mozilla.org/javascript/2012/10/15/the-ins-and-outs-of-invalidation/) - emitting efficient code using invalidation in JavaScript JITs
 * [JSON Editor Online](http://jsoneditoronline.org/)
 * [9 Enhancements to Shell and Vim Productivity](http://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity)
-* [A week of scientific inspiration - The 2012 Nobel Prize declarations and their implications]http://thevarsity.ca/2012/10/21/a-week-of-scientific-inspiration/)
+* [A week of scientific inspiration - The 2012 Nobel Prize declarations and their implications](http://thevarsity.ca/2012/10/21/a-week-of-scientific-inspiration/)
 * [Interview with creator of NGINX Igor Sysoev](http://www.webhostingskills.com/open_source/articles/interview_with_creator_of_nginx_igor_sysoev)
 * [Rachel Botsman: The currency of the new economy is trust](http://www.ted.com/talks/rachel_botsman_the_currency_of_the_new_economy_is_trust.html)
 * [Kr∆mpfh∆ft](http://soundcloud.com/krampfhaft)
