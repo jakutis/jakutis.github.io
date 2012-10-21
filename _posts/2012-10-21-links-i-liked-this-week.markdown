@@ -10,6 +10,24 @@ date: 2012-10-21
 * [Optical vortices on a chip](http://www.bris.ac.uk/news/2012/8870.html#uobcms-content)
 * [CBC MASSEY LECTURES 2012: The Universe within: from Quantum to Cosmos by Neil Turok](http://www.cbc.ca/toronto/community/mt/2012/09/cbc-massey-lectures-2012.html)
 * [Princeton/NIST Collaboration Puts Wheels on the Quantum Bus](http://www.nist.gov/pml/div684/bus-101912.cfm)
+* [quantum theory](http://www.infoplease.com/encyclopedia/science/quantum-theory.html)
+* [Breakthrough offers new route to large-scale quantum computing](http://www.sciencecodex.com/breakthrough_offers_new_route_to_largescale_quantum_computing-100511)
+* [As I See It: Sub-Atomic Dreams](http://www.itjungle.com/tfh/tfh102212-story04.html)
+* [Caltech Quantum Optics](http://www.its.caltech.edu/~qoptics/)
+* [Communicating without memory in a quantum system](http://arstechnica.com/science/2012/10/communicating-without-memory-in-a-quantum-system/)
+* [Quantum Computing with Ions](http://www.scientificamerican.com/article.cfm?id=quantum-computing-with-ions)
+* [Science: Quantum Oscillator Responds to Pressure](http://www.kit.edu/visit/pi_2012_11941.php)
+* [Optical vortices on a chip](http://esciencenews.com/articles/2012/10/18/optical.vortices.a.chip)
+* [Ultimate physical limits to computation](http://arxiv.org/abs/quant-ph/9908043)
+* [Quantum bits achieve long-distance relationship](http://www.cosmosmagazine.com/news/6068/spin-based-qubits-achieve-long-distance-relationship)
+* [D-Wave Systems quantum computing secures $30M of equity funding](http://www.ept.ca/news/d-wave-systems-quantum-computing-secures-30m-of-equity-funding/1001776975/)
+* [Joint Quantum Institute](http://jqi.umd.edu/)
+* [Institute for Quantum Computing](http://iqc.ca/)
+  * [Institute for Quantum Computing](http://www.youtube.com/quantumiqc) - YouTube
+* [Institute for Quantum Information](http://www.iqi.caltech.edu/)
+* [LANL | Centers | Quantum Institute](http://lanl.gov/science/centers/quantum/)
+  * [Quantum Information Science and Technology Roadmapping Project](http://qist.lanl.gov/)
+* [Institute for Quantum Information Science at the University of Calgary](http://iqis.org/)
 
 # Various
 * [Dog](http://www.technologyreview.com/news/429544/new-programming-language-makes-social-coding/) - programming language
@@ -29,3 +47,9 @@ date: 2012-10-21
 * [The Ins and Outs of Invalidation](https://blog.mozilla.org/javascript/2012/10/15/the-ins-and-outs-of-invalidation/) - emitting efficient code using invalidation in JavaScript JITs
 * [JSON Editor Online](http://jsoneditoronline.org/)
 * [9 Enhancements to Shell and Vim Productivity](http://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity)
+* [A week of scientific inspiration - The 2012 Nobel Prize declarations and their implications]http://thevarsity.ca/2012/10/21/a-week-of-scientific-inspiration/)
+* [Interview with creator of NGINX Igor Sysoev](http://www.webhostingskills.com/open_source/articles/interview_with_creator_of_nginx_igor_sysoev)
+* [Rachel Botsman: The currency of the new economy is trust](http://www.ted.com/talks/rachel_botsman_the_currency_of_the_new_economy_is_trust.html)
+* [Kr∆mpfh∆ft](http://soundcloud.com/krampfhaft)
+* [The Boat That Rocked](http://en.wikipedia.org/wiki/The_Boat_That_Rocked)
+* [jq](http://stedolan.github.com/jq/) - a lightweight and flexible command-line JSON processor
