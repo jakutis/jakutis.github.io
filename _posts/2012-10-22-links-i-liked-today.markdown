@@ -28,6 +28,7 @@ date: 2012-10-22
 * [Quantum Workshop](http://blog.computationalcomplexity.org/2012/10/quantum-workshop.html)
 * [Quantum Algorithms](http://qualgorithms.blogspot.com/)
 * [Cohærence](http://superconducting.blogspot.com/)
+* [Electrons In Flatland](http://www.caltech.edu/content/notes-back-row-electrons-flatland)
 * [Quantum Programming](http://en.wikipedia.org/wiki/Quantum_programming)
     * [Quantum Virtual Machine](http://en.wikipedia.org/wiki/Quantum_virtual_machine)
     * [Quantum Programming Language](http://www.quantiki.org/wiki/Quantum_Programming_Language)
