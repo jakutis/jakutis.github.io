@@ -34,15 +34,16 @@ The table below is not complete, but it should serve the purpose of striking out
 So the real candidates are Backbone.js, Knockout.js, YUI, Spine, Ember.js and Sammy.js. Apparently, the winner is Backbone.js. yay
 
 But there are also countless other comparisons, for example:
--   [Addy Osmani: Short Musings On JavaScript MV* Tech Stacks](http://addyosmani.com/blog/short-musings-on-javascript-mv-tech-stacks/)
--   [Quora: Can we get a poweredby list of ember.js (sproutcore), javascriptmvc, backbone.js individually?](http://www.quora.com/Can-we-get-a-poweredby-list-of-ember-js-sproutcore-javascriptmvc-backbone-js-individually)
--   [Knockback brings Knockout.js magic to Backbone](http://kmalakoff.github.com/knockback/)
--   [Hacker News: Sproutcore vs jQuery +backbone.js](http://news.ycombinator.com/item?id=2119704)
--   [Hacker News: Backbone.js 0.5.0 Released (with pushState)](http://news.ycombinator.com/item?id=2719448)
--   [Hacker News: Backbone vs Knockout](http://news.ycombinator.com/item?id=3265625)
--   [StackOverflow: Knockout.js vs Backbone.js (vs ?) (closed)](http://stackoverflow.com/questions/5112899/knockout-js-vs-backbone-js-vs)
--   [How to use Model-View-Controller (MVC) by Steve Burbeck, Ph.D.](http://st-www.cs.illinois.edu/users/smarch/st-docs/mvc.html)
--   [Understanding MVC And MVP (For JavaScript And Backbone Developers)](http://addyosmani.com/blog/understanding-mvc-and-mvp-for-javascript-and-backbone-developers/)
+
+- [Addy Osmani: Short Musings On JavaScript MV* Tech Stacks](http://addyosmani.com/blog/short-musings-on-javascript-mv-tech-stacks/)
+- [Quora: Can we get a poweredby list of ember.js (sproutcore), javascriptmvc, backbone.js individually?](http://www.quora.com/Can-we-get-a-poweredby-list-of-ember-js-sproutcore-javascriptmvc-backbone-js-individually)
+- [Knockback brings Knockout.js magic to Backbone](http://kmalakoff.github.com/knockback/)
+- [Hacker News: Sproutcore vs jQuery +backbone.js](http://news.ycombinator.com/item?id=2119704)
+- [Hacker News: Backbone.js 0.5.0 Released (with pushState)](http://news.ycombinator.com/item?id=2719448)
+- [Hacker News: Backbone vs Knockout](http://news.ycombinator.com/item?id=3265625)
+- [StackOverflow: Knockout.js vs Backbone.js (vs ?) (closed)](http://stackoverflow.com/questions/5112899/knockout-js-vs-backbone-js-vs)
+- [How to use Model-View-Controller (MVC) by Steve Burbeck, Ph.D.](http://st-www.cs.illinois.edu/users/smarch/st-docs/mvc.html)
+- [Understanding MVC And MVP (For JavaScript And Backbone Developers)](http://addyosmani.com/blog/understanding-mvc-and-mvp-for-javascript-and-backbone-developers/)
 
 **UPDATES**
 
