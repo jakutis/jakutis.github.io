@@ -17,5 +17,6 @@ Without further ado, I present you - Popularity - a Google Chrome Extension that
 ![Screenshot](/img/popularity.jpg)
 
 Links:
-*   [Popularity on Chrome WebStore](https://chrome.google.com/webstore/detail/hfmcbpmainfbjjhbdbfdmdamljomfboh)
-*   [soure code repository of Popularity](http://jakut.is/git/POPULARITY/)
+
+* [Popularity on Chrome WebStore](https://chrome.google.com/webstore/detail/hfmcbpmainfbjjhbdbfdmdamljomfboh)
+* [soure code repository of Popularity](http://jakut.is/git/POPULARITY/)
