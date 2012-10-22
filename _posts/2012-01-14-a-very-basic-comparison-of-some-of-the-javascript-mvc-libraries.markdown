@@ -9,9 +9,10 @@ wordpress_url: !binary |-
 date: 2012-01-14 18:15:21.000000000 +00:00
 ---
 The table below is not complete, but it should serve the purpose of striking out the unsuitable ones. For other comparisons please see these:
--   [Client Side MVC Shootout](http://scottburton11.github.com/Client-Side-Framework-Shootout-Talk/)
--   [Client-Side MVC frameworks compared](http://paulhammant.com/2012/02/13/client-side-mvc-frameworks-compared/)
--   [The Top 10 Javascript MVC Frameworks Reviewed](http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/)
+
+- [Client Side MVC Shootout](http://scottburton11.github.com/Client-Side-Framework-Shootout-Talk/)
+- [Client-Side MVC frameworks compared](http://paulhammant.com/2012/02/13/client-side-mvc-frameworks-compared/)
+- [The Top 10 Javascript MVC Frameworks Reviewed](http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/)
 
 <table><thead>
 <tr><th>Name</th><th>Pros</th><th>Cons</th><th>Notes</th></tr>
