@@ -22,11 +22,11 @@ date: 2012-10-21
 * [Quantum bits achieve long-distance relationship](http://www.cosmosmagazine.com/news/6068/spin-based-qubits-achieve-long-distance-relationship)
 * [D-Wave Systems quantum computing secures $30M of equity funding](http://www.ept.ca/news/d-wave-systems-quantum-computing-secures-30m-of-equity-funding/1001776975/)
 * [Joint Quantum Institute](http://jqi.umd.edu/)
-*   [Institute for Quantum Computing](http://iqc.ca/)
-    -   [Institute for Quantum Computing](http://www.youtube.com/quantumiqc) - YouTube
+* [Institute for Quantum Computing](http://iqc.ca/)
+    - [Institute for Quantum Computing](http://www.youtube.com/quantumiqc) - YouTube
 * [Institute for Quantum Information](http://www.iqi.caltech.edu/)
-*   [LANL | Centers | Quantum Institute](http://lanl.gov/science/centers/quantum/)
-    -   [Quantum Information Science and Technology Roadmapping Project](http://qist.lanl.gov/)
+* [LANL | Centers | Quantum Institute](http://lanl.gov/science/centers/quantum/)
+    - [Quantum Information Science and Technology Roadmapping Project](http://qist.lanl.gov/)
 * [Institute for Quantum Information Science at the University of Calgary](http://iqis.org/)
 
 # Various
