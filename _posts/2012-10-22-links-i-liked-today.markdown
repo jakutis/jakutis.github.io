@@ -29,7 +29,7 @@ date: 2012-10-22
 * [Quantum Algorithms](http://qualgorithms.blogspot.com/)
 * [Cohærence](http://superconducting.blogspot.com/)
 * [Electrons In Flatland](http://www.caltech.edu/content/notes-back-row-electrons-flatland)
-* [](http://www.scientificamerican.com/blog/post.cfm?id=despagnat-takes-big-prize-for-work-2009-03-18)
+* [http://www.scientificamerican.com/blog/post.cfm?id=despagnat-takes-big-prize-for-work-2009-03-18](http://www.scientificamerican.com/blog/post.cfm?id=despagnat-takes-big-prize-for-work-2009-03-18)
     * [The Quantum Theory and Reality](http://www.scientificamerican.com/media/pdf/197911_0158.pdf)
     * [A streamlined explanation of Bell's inequalities by David Mermin](http://www.iafe.uba.ar/e2e/phys230/history/moon.pdf)
 * [Quantum Programming](http://en.wikipedia.org/wiki/Quantum_programming)
