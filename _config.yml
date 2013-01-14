@@ -3,7 +3,7 @@ markdown: rdiscount
 exclude: ["_posts-imported"]
 auto: true
 pygments: true
-paginate: 10
+paginate: 5
 safe: true
 production_url : https://jakut.is
 url : https://jakut.is
