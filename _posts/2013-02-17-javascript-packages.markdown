@@ -9,5 +9,6 @@ a whole landscape of various CommonJS package managers has been built up.
 This post will evaluate the new options
 and should help one to decide, whether there is an upgrade from Browserify.
 
-| npmjs | [ender](https://npmjs.org/package/ender) | [bower](https://npmjs.org/package/bower) |
-| github | [103,9](https://github.com/ender-js/Ender) | [4240,283](https://github.com/twitter/bower) |
+| | [ender](http://ender.jit.su) | [bower](https://npmjs.org/package/bower) |
+| github | [103, 9](https://github.com/ender-js/Ender) | [4240, 283](https://github.com/twitter/bower) |
+| npmjs | [15, 129, 740](https://npmjs.org/package/ender) | [1098, 6236, -](https://npmjs.org/package/bower) |
