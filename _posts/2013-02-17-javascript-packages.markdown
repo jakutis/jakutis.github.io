@@ -9,10 +9,4 @@ a whole landscape of various CommonJS package managers has been built up.
 This post will evaluate the new options
 and should help one to decide, whether there is an upgrade from Browserify.
 
-<table>
-    <tbody>
-        <tr>
-            <td>[ender](https://npmjs.org/package/ender)</td>
-        </tr>
-    </tbody>
-</table>
+| [ender](https://npmjs.org/package/ender) |
