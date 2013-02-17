@@ -41,12 +41,21 @@ Specifically, we will be comparing single script generators that use CommonJS mo
 | entry script type | plain browser script | plain browser script | depends on a loader or a generator | arbitrary | local component | TODO | depends on the plugin | plain browser script |
 | defects | none | none | none | none | home page is down,<br>`component info component/tip` is broken | `npm install -g one` is broken | none | none |
 
+## Omissions
+
+There is also these monolithic [brunch.io](http://brunch.io/) by Brunch team, [hem](https://github.com/spine/hem) by Spine developers and [volo](https://github.com/volojs/volo) by Dojo Foundation.
+They were excluded from this analysis.
+
+Brunch has a word 'lightweight' in it's tagline, and it's really just the opposite - project initialization created 1365 files using 15 MB, it took 1.8s to build the empty project and the initialized source code was in CoffeeScript. Liars.
+
+Hem failed on `npm install -g hem`, has a broken link [in their page at npm registry](https://npmjs.org/package/hem), uses 'awesome' in it's documentation, was originally made to complement [the Spine framework](http://spinejs.com/), uses a file called `slug.js` for configurations, written in and endorsing CoffeeScript. ewww.
+
+And Volo. `Are you tired of repeating yourself when building web sites? volo is a tool which lets you quickly create projects, add libraries, and automate common tasks using node and JavaScript.`. ... [What is this I don't even](http://knowyourmeme.com/memes/what-is-this-i-dont-even). By [the Dojo Foundation](http://dojofoundation.org/). `Home of great open source web projects`. Yeaaahh.
+
 ## Conclusions
 
 It is best to upgrade from Browserify to [the Yeoman workflow](http://yeoman.io).
 Use Yo for scaffolding, Grunt for integration, Bower for package management and [grunt-component-build](https://github.com/anthonyshort/grunt-component-build) (or [grunt-commonjs](https://github.com/avos/grunt-commonjs) with [commonjs loader](https://github.com/chrisabrams/commonjs)) for concatenation.
-
-There is also this monolithic [brunch.io](http://brunch.io/).
 
 Browserify still is most simple if just basic package management with concatenation is needed and the NodeJS polyfilling bloat is insignificant.
 
