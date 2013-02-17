@@ -30,10 +30,10 @@ and should help one to decide whether there is an upgrade from Browserify.
 | copies from local directory | yes | yes | yes | no | TODO | yes, if using a plugin (Bower, etc.) | no |
 | copies from archive URL | yes | yes | yes | no | TODO | yes, if using a plugin (Bower, etc.) | no |
 | copies to | arbitrary (default is node_modules) | arbitrary (default is components) | node_modules | components | TODO | yes, if using a plugin (Bower, etc.) | jam |
-| generates a single script | yes | no | yes | yes | TODO | yes, if using a plugin (simple concatenation, Component, Jam, Browserify, etc.) | no (generates an Asynchronous Module Definition files for using with [Require.js](http://requirejs.org/) or [almond](https://github.com/jrburke/almond)) |
+| generates a single script | yes | no, needs a loader or a generator | yes | yes | TODO | yes, if using a plugin (simple concatenation, Component, Jam, Browserify, etc.) | no (generates an Asynchronous Module Definition files for using with [Require.js](http://requirejs.org/) or [almond](https://github.com/jrburke/almond)) |
 | generates a single stylesheet | no | no | no | yes | TODO | yes, if using Component plugin | no |
 | exposes require to global scope | yes | no | optionally (default is no) | yes | TODO | depends on the plugin | no |
-| uses an entry script | TODO | TODO | yes | TODO | TODO | depends on the plugin | TODO |
+| entry script type | plain browser script | depends on a loader or a generator | arbitrary | local component | TODO | depends on the plugin | depends on the plugin |
 | defects | none | none | none | home page is down,<br>`component info component/tip` is broken | `npm install -g one` is broken | none | none |
 
 ## Conclusions
