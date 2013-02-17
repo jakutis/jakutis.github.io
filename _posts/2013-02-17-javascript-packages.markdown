@@ -34,7 +34,7 @@ and should help one to decide whether there is an upgrade from Browserify.
 | generates a single stylesheet | no | no | no | yes | TODO | TODO |
 | exposes require to global scope | yes | no | optionally (default is no) | yes | TODO | TODO |
 | uses an entry script | TODO | TODO | TODO | TODO | TODO | TODO |
-| defects | none | none | none | home page is down, `component info component/tip` is broken | `npm install -g one` is broken | TODO |
+| defects | none | none | none | home page is down,<br>`component info component/tip` is broken | `npm install -g one` is broken | TODO |
 
 ## Conclusion
 
