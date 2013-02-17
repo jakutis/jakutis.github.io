@@ -46,9 +46,9 @@ Specifically, we will be comparing single script generators that use CommonJS mo
 There is also these monolithic [brunch.io](http://brunch.io/) by Brunch team, [hem](https://github.com/spine/hem) by Spine developers and [volo](https://github.com/volojs/volo) by Dojo Foundation.
 They were excluded from this analysis, mainly because they try to do too many things and in a monolithic fashion.
 
-Brunch has a word 'lightweight' in it's tagline, and it's really just the opposite - project initialization created 1365 files using 15 MB, it took 1.8s to build the empty project and the initialized source code was in CoffeeScript. Liars.
+Brunch has a word 'lightweight' in its tagline, and it's really just the opposite - project initialization created 1365 files using 15 MB, it took 1.8s to build the empty project and the initialized source code was in CoffeeScript. Liars.
 
-Hem failed on `npm install -g hem`, has a broken link [in their page at npm registry](https://npmjs.org/package/hem), uses 'awesome' in it's documentation, was originally made to complement [the Spine framework](http://spinejs.com/), uses a file called `slug.js` for configurations, written in and endorsing CoffeeScript. ewww.
+Hem failed on `npm install -g hem`, has a broken link [in their page at npm registry](https://npmjs.org/package/hem), uses 'awesome' in its documentation, was originally made to complement [the Spine framework](http://spinejs.com/), uses a file called `slug.js` for configurations, written in and endorsing CoffeeScript. ewww.
 
 Volo is compatible solely with Asynchronous Module Definition scripts.
 It should not have been even mentioned (see the last sentence of introduction).
@@ -64,6 +64,6 @@ Browserify still is most simple if just basic package management with concatenat
 
 Another category of weapons is being developed - scaffolding generators.
 Besides Grunt init templates, [Yo](http://yeoman.io) is currently in version 1.0.0 beta 2.
-Have a look at it's backend - [the Yeoman generator system](https://github.com/yeoman/generator).
+Have a look at its backend - [the Yeoman generator system](https://github.com/yeoman/generator).
 
 When creating a package to be used as an external dependency, [these Universal Module Definition templates](https://github.com/umdjs/umd) are handy.
