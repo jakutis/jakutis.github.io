@@ -42,16 +42,17 @@ That said, we will be interested in single script generators, not loaders like [
 
 ## Conclusions
 
-Another category of weapons is being developed - scaffolding generators.
-Besides Grunt init templates, [Yo](http://yeoman.io) is currently in version 1.0.0 beta 2.
-Have a look at it's backend - [the Yeoman generator system](https://github.com/yeoman/generator).
-
 It is best to upgrade from Browserify to [the Yeoman workflow](http://yeoman.io).
 Use Yo for scaffolding, Grunt for integration, Bower for package management and [grunt-component-build](https://github.com/anthonyshort/grunt-component-build) (or [grunt-commonjs](https://github.com/avos/grunt-commonjs) with [commonjs loader](https://github.com/chrisabrams/commonjs)) for concatenation.
 
 There is also this monolithic [brunch.io](http://brunch.io/).
-Yet Browserify still is most simple if just basic package management with concatenation is needed and the NodeJS polyfilling bloat is insignificant.
+
+Browserify still is most simple if just basic package management with concatenation is needed and the NodeJS polyfilling bloat is insignificant.
 
 # Bonus
+
+Another category of weapons is being developed - scaffolding generators.
+Besides Grunt init templates, [Yo](http://yeoman.io) is currently in version 1.0.0 beta 2.
+Have a look at it's backend - [the Yeoman generator system](https://github.com/yeoman/generator).
 
 When creating a package to be used as an external dependency, [these Universal Module Definition templates](https://github.com/umdjs/umd) are handy.
