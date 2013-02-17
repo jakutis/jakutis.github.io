@@ -13,10 +13,11 @@ table {
 
 Since the creation of [Stitch by Sam Stephenson on 17 September 2010](https://github.com/sstephenson/stitch/commit/a734eceb99f431b37d2693e1fe64195f76e159ec) and [Browserify by James Halliday on 22 September 2010](https://github.com/substack/node-browserify/commit/b0363ae3d5749b3f7e722b21c65484fdf634acf3) ([announced in 2011](http://substack.net/posts/24ab8c/browserify-browser-side-require-for-your-node-js)),
 a whole landscape of various [CommonJS](http://www.commonjs.org/) package managers has been built up.
-This post will evaluate the new options
-and should help one to decide whether there is an upgrade from Browserify.
+Articles like the [Meet the New Stack, Same as the Old Stack](http://dailyjs.com/2013/02/04/stack/) and [Confused About Components](http://dailyjs.com/2013/01/28/components/) have been written.
+However, the relevant new options need to be summarized.
+This article should help one to decide whether there is an upgrade from Browserify.
 
-That said, we will be interested in single script generators, not loaders like [Require.js](http://requirejs.org/), [almond](https://github.com/jrburke/almond), [uRequire](https://github.com/anodynos/uRequire) or [r.js](https://github.com/jrburke/r.js).
+Specifically, we will be comparing single script generators that use CommonJS module system, not loaders like [Require.js](http://requirejs.org/), [almond](https://github.com/jrburke/almond), [uRequire](https://github.com/anodynos/uRequire) or [r.js](https://github.com/jrburke/r.js).
 
 ## Comparison table
 
