@@ -3,6 +3,11 @@ layout: post
 title: JavaScript packages
 date: Sun Feb 17 00:52:29 EET 2013
 ---
+<style>
+table {
+    white-space: nowrap;
+}
+</style>
 
 ## Introduction
 Since the creation of Browserify by James Halliday in 2010,
