@@ -32,7 +32,7 @@ and should help one to decide whether there is an upgrade from Browserify.
 | copies to | arbitrary (default is node_modules) | arbitrary (default is components) | node_modules | components | TODO | yes, if using a plugin (Bower, etc.) |
 | generates a single script | yes | no | yes | yes | TODO | yes, if using a plugin (simple concatenation, Component, Jam, Browserify, etc.) |
 | generates a single stylesheet | no | no | no | yes | TODO | yes, if using Component plugin |
-| exposes require to global scope | yes | no | optionally (default is no) | yes | depends on the plugin |  |
+| exposes require to global scope | yes | no | optionally (default is no) | yes | TODO | depends on the plugin |
 | uses an entry script | TODO | TODO | yes | TODO | TODO | depends on the plugin |
 | defects | none | none | none | home page is down,<br>`component info component/tip` is broken | `npm install -g one` is broken | none |
 
