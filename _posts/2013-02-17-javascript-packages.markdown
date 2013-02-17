@@ -48,7 +48,7 @@ They were excluded from this analysis, mainly because they try to do too many th
 
 Brunch has a word 'lightweight' in its tagline, and it's really just the opposite - project initialization created 1365 files using 15 MB, it took 1.8s to build the empty project and the initialized source code was in CoffeeScript. Liars.
 
-Hem failed on `npm install -g hem`, has a broken link [in their page at npm registry](https://npmjs.org/package/hem), uses 'awesome' in its documentation, was originally made to complement [the Spine framework](http://spinejs.com/), uses a file called `slug.js` for configurations, written in and endorsing CoffeeScript. ewww.
+Hem failed on `npm install -g hem`; has a broken link [in their page at npm registry](https://npmjs.org/package/hem); uses 'awesome' in its documentation; was originally made to complement [the Spine framework](http://spinejs.com/); uses a file called `slug.js` for configurations; written in and endorsing CoffeeScript. ewww.
 
 Volo is compatible solely with Asynchronous Module Definition scripts.
 It should not have been even mentioned (see the last sentence of introduction).
