@@ -23,7 +23,7 @@ and should help one to decide whether there is an upgrade from Browserify.
 | license | MIT | MIT | MIT and 3-clause BSD | MIT | WTFPL | MIT |
 | first commit | 2011-04-04 | 2012-09-06 | 2010-09-22 | 2012-08-01 | 2012-10-01 | 2011-09-21 |
 | last commit | 2013-02-16 | 2013-02-14 | 2013-02-16 | 2013-02-15 | 2013-02-08 | 2013-02-13 |
-| takes package list from | arbitrary (default is ender.js) | arbitrary (default is component.json) | package.json | component.json | TODO | depends on concatenation settings |
+| takes package list from | arbitrary (default is ender.js) | arbitrary (default is component.json) | package.json | component.json | TODO | depends on the plugin |
 | name registry | [npmjs.org](https://npmjs.org) | [sindresorhus.com](http://sindresorhus.com/bower-components/) | [npmjs.org](https://npmjs.org) | [github.com](https://github.com) | TODO | depends on the plugin |
 | copies from git URL | yes | yes | yes | no | TODO | yes, if using a plugin (Bower, etc.) |
 | copies from registry | yes | yes | yes | yes | TODO | yes, if using a plugin (Bower, etc.) |
@@ -40,6 +40,6 @@ TODO add jamjs+almond
 
 ## Conclusions
 
-It is best to upgrade from Browserify to a combination of Bower and Component. Use Bower for package management and Component for concatenation.
+Another category of weapons is being developed - scaffolding generators. Besides Grunt init templates, [Yo](http://yeoman.io) is currently in version 1.0.0 beta 2. Have a look at it's backend - [the Yeoman generator system](https://github.com/yeoman/generator).
 
-Another category of weapons is being developed - scaffolding generators. Besides Grunt, [Yo](http://yeoman.io) is currently in version 1.0.0 beta 2. Have a look at it's backend - [the Yeoman generator system](https://github.com/yeoman/generator).
+It is best to upgrade from Browserify to a combination of Yo, Grunt, Bower and Component. Use Yo for scaffolding, Grunt for integration, Bower for package management and Component for concatenation.
