@@ -10,8 +10,8 @@ table {
 </style>
 
 ## Introduction
-Since the creation of Browserify by James Halliday in 2010,
-a whole landscape of various CommonJS package managers has been built up.
+Since [the creation of Browserify by James Halliday in 2010](https://github.com/substack/node-browserify/commit/b0363ae3d5749b3f7e722b21c65484fdf634acf3) and [announcement in 2011](http://substack.net/posts/24ab8c/browserify-browser-side-require-for-your-node-js),
+a whole landscape of various [CommonJS](http://www.commonjs.org/) package managers has been built up.
 This post will evaluate the new options
 and should help one to decide whether there is an upgrade from Browserify.
 
