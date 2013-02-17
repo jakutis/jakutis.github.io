@@ -16,7 +16,15 @@ and should help one to decide whether there is an upgrade from Browserify.
 | first commit | 2011-04-04 | 2012-09-06 |
 | last commit | 2013-02-16 | 2013-02-14 |
 | takes package list from packages.json | no | no |
-| downloads packages from npmjs.org | yes | ? |
-| stores packages in node_modules | yes | ? |
-| generates a single script | yes | ? |
-| exposes require to global scope | yes | ? |
+| takes package list from component.json | no | yes |
+| takes package list from generated script | yes | no |
+| name registry | [npmjs.org](https://npmjs.org) | [sindresorhus.com](http://sindresorhus.com/bower-components/) |
+| copies from git URL | no | yes |
+| copies from registry | yes | yes |
+| copies from local directory | yes | yes |
+| copies from archive URL | no | yes |
+| copies to | arbitrary (default is node_modules) | components |
+| generates a single script | yes | no |
+| exposes require to global scope | yes | no |
+
+The conclusion is that it is best to upgrade from Browserify to a combination of Bower and TODO
