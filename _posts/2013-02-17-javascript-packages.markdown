@@ -62,8 +62,10 @@ Browserify still is most simple if just basic package management with concatenat
 
 # Bonus
 
-Another category of weapons is being developed - scaffolding generators.
-Besides Grunt init templates, [Yo](http://yeoman.io) is currently in version 1.0.0 beta 2.
-Have a look at its backend - [the Yeoman generator system](https://github.com/yeoman/generator).
+When creating a package to be used as an external dependency, use [these Universal Module Definition templates](https://github.com/umdjs/umd) to make your package usable in every type of environment - AMD, CommonJS require, simple global, etc.
 
-When creating a package to be used as an external dependency, [these Universal Module Definition templates](https://github.com/umdjs/umd) are handy.
+Another category of weapons is being developed - scaffolding generators.
+Besides [grunt-init](http://gruntjs.com/project-scaffolding), there is a new tool in development - [Yo](http://yeoman.io).
+Have a look at the skeletons its backend is offering - [the Yeoman generator system](https://github.com/yeoman/generator).
+
+Lastly, here is [my "component" skeleton for grunt-init](https://jakut.is/git/GRUNTINITCOMPONENT/about/).
