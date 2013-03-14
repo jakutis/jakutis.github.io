@@ -48,7 +48,7 @@ date: 2013-03-13
 3. Breathe and give your brain and body a chance to pause and plan.
 4. Broaden your attention and look for the action that will help you achieve your goal.
 
-## Make willpower mistake to save for an exceptional task
+## BOOST - Make willpower mistake to save for an exceptional task
 
 > Do less of the things that take some amount of willpower (e.g. you can skip tidying your room, or taking out garbage) before a task of exceptional importance (e.g. taking an exam).
 
