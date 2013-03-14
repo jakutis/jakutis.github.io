@@ -50,7 +50,7 @@ Stay put, hold your breath, do nothing when you are in an uncomfortable position
 
 # references
 
-1. http://youtu.be/V5BXuZL1HAg
-2. http://youtu.be/gpk1kt2N5KI
-3. http://youtu.be/05vitpSY1vU
+1. [Authors@Google: Kelly McGonigal](http://youtu.be/V5BXuZL1HAg)
+2. [Brain Science - A Miracle Cure for Willpower](http://youtu.be/gpk1kt2N5KI)
+3. [TEDxSF - Dr. Sam Wang - 11/17/09](http://youtu.be/05vitpSY1vU)
 
