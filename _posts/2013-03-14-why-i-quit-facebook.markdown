@@ -16,7 +16,7 @@ date: 2013-03-14
 
 I've also closed my Google account. I didn't use any of the services that require a Google login. I host the email server myself - postfix-spamassassin combo is easy to setup and run without any maintenance.
 
-Same for GitHub - I did not use any of their best features - issue tracking, in-place editing, commit commenting. I have my little cgit install works like a pro, infinite private repositories
+Same for GitHub - I did not use any of their best features - issue tracking, in-place editing, commit commenting. I have my little cgit+gitolite install works like a champ, infinite private repositories.
 
 As for Twitter - I prefer RSS.
 
