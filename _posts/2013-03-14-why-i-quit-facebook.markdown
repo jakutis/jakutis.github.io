@@ -12,7 +12,7 @@ date: 2013-03-14
 4. All the data that happens to be created in Facebook stays in Facebook. Not all the originally uthored data (that includes comments) can be privately backed up. Just try the "Download all your data" feature. It's a lie. Even the messages are not fully saved.
 5. Facebook had nothing useful in it. I had over 350 friends and all there was - just music links, photos, random anecdotes, spam from "liked" pages, etc. Rubbish.
 6. Facebook, Inc. is in that business cycle phase which means begin seriously monetizing. Since Facebook account is free and will always remain free, users are paying indirectly - by watching the advertisements and exchanging real currency into Facebook currency.
-7. If you can get by without <insert_object_here>, then you should get rid of <insert_object_here>.
+7. If you can get by without `<insert_object_here>`, then you should get rid of `<insert_object_here>`.
 
 I've also closed my Google account.
 I didn't use any of the services that require a Google login.
