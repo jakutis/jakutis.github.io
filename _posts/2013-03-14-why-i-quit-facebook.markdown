@@ -14,9 +14,12 @@ date: 2013-03-14
 6. Facebook, Inc. is in that business cycle phase which means begin seriously monetizing. Since Facebook account is free and will always remain free, users are paying indirectly - by watching the advertisements and exchanging real currency into Facebook currency.
 7. If you can get by without <insert_object_here>, then you should get rid of <insert_object_here>.
 
-I've also closed my Google account. I didn't use any of the services that require a Google login. I host the email server myself - postfix-spamassassin combo is easy to setup and run without any maintenance.
+I've also closed my Google account.
+I didn't use any of the services that require a Google login.
+I host the email server myself - postfix-spamassassin combo is easy to setup and run without any maintenance.
 
-Same for GitHub - I did not use any of their best features - issue tracking, in-place editing, commit commenting. I have my little cgit+gitolite install works like a champ, infinite private repositories.
+Same for GitHub - I did not use any of their best features - issue tracking, in-place editing, commit commenting.
+My little cgit+gitolite install works like a champ, infinite private repositories.
 
 As for Twitter - I prefer RSS.
 
