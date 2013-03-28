@@ -50,7 +50,9 @@ Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
 
 ## Complexity Theoretic Cryptography
 
-Lecturer: [Thomas Holenstein](http://www.complexity.ethz.ch/people/holthoma)
+* Lecturer: [Thomas Holenstein](http://www.complexity.ethz.ch/people/holthoma)
+* [Web page (syllabus, exercises, lecture notes)](http://www.complexity.ethz.ch/education/Lectures/CtcFS13)
+* Textbook: [2001 - Oded Goldreich - The Foundations of Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-vol1.html)
 
 ## Environmental Impacts, Threshold Levels and Health Effects
 
