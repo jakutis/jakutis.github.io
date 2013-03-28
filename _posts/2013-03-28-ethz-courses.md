@@ -38,7 +38,8 @@ Lecturer: [Yvonne-Anne Pignolet](http://pignolet.webnode.com/)
 ## Geometric Graphs: Combinatorics and Algorithms
 
 * Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
-* [Web page (exercises, syllabus, lecture notes)](http://www.ti.inf.ethz.ch/ew/lehre/GG13/)
+* [Web page (exercises, syllabus)](http://www.ti.inf.ethz.ch/ew/lehre/GG13/)
+* Lecture notes are not publicly available
 * Textbooks:
   * [2004 - Takao Nishizeki, Md Saidur Rahman - Planar Graph Drawing](http://www.worldscientific.com/worldscibooks/10.1142/5648)
   * [2004 - Stefan Felsner - Geometric Graphs and Arrangements](http://www.springer.com/mathematics/geometry/book/978-3-528-06972-8)
@@ -49,7 +50,14 @@ Lecturer: [Christoph Sprenger](http://people.inf.ethz.ch/csprenge/Home.html)
 
 ## Graphs and Algorithms
 
-Lecturer: [Johannes Lengler](http://www.cadmo.ethz.ch/as/people/members/lenglerj)
+* Lecturer: [Johannes Lengler](http://www.cadmo.ethz.ch/as/people/members/lenglerj)
+* [Web page (syllabus, exercises)](http://www.cadmo.ethz.ch/education/lectures/FS13/graph_algo)
+* Lecture notes are not publicly available
+* Textbooks:
+  * [2000 - Douglas B. West - Introduction to Graph Theory](http://www.pearson.ch/HigherEducation/MathematicsStatistics/AdvancedMathematics/1471/9780130144003/Introduction-to-Graph-Theory.aspx)
+  * [2010 - Reinhard Diestel - Graph Theory](http://link.springer.com/book/10.1007/b100033/page/1)
+  * [2008 - Adrian Bondy, U.S.R. Murty - Graph Theory](http://www.springer.com/new+%26+forthcoming+titles+%28default%29/book/978-1-84628-969-9)
+  * [2008 - Steven S. Skiena - The Algorithm Design Manual](http://www.springer.com/computer/theoretical+computer+science/book/978-1-84800-069-8)
 
 ## Satisfiability of Boolean Formulas: Combinatorics and Algorithms
 
