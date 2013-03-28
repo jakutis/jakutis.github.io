@@ -30,11 +30,18 @@ Lecturer: [Yvonne-Anne Pignolet](http://pignolet.webnode.com/)
 
 ## Cryptography
 
-Lecturer: [Ueli Maurer](http://www.crypto.ethz.ch/~maurer/)
+* Lecturer: [Ueli Maurer](http://www.crypto.ethz.ch/~maurer/)
+* [Web page](http://www.crypto.ethz.ch/teaching/lectures/Krypto13/)
+* [Syllabus](http://www.crypto.ethz.ch/teaching/lectures/Krypto13/info.pdf)
+* Exercises and lecture notes are not publicly available and there is no single textbook
 
 ## Geometric Graphs: Combinatorics and Algorithms
 
-Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
+* Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
+* [Web page (exercises, syllabus, lecture notes)](http://www.ti.inf.ethz.ch/ew/lehre/GG13/)
+* Textbooks:
+  * [2004 - Takao Nishizeki, Md Saidur Rahman - Planar Graph Drawing](http://www.worldscientific.com/worldscibooks/10.1142/5648)
+  * [2004 - Stefan Felsner - Geometric Graphs and Arrangements](http://www.springer.com/mathematics/geometry/book/978-3-528-06972-8)
 
 ## Information Security
 
@@ -46,7 +53,9 @@ Lecturer: [Johannes Lengler](http://www.cadmo.ethz.ch/as/people/members/lenglerj
 
 ## Satisfiability of Boolean Formulas: Combinatorics and Algorithms
 
-Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
+* Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
+* [Web page (syllabus)](http://www.ti.inf.ethz.ch/ew/lehre/SAT13/)
+* Exercises and lecture notes are not publicly available and there is no single textbook
 
 ## Complexity Theoretic Cryptography
 
