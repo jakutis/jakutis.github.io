@@ -45,7 +45,7 @@ Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
 
 ## Complexity Theoretic Cryptography
 
-Lecturer: [Thomas Holenstein](Complexity Theoretic Cryptography)
+Lecturer: [Thomas Holenstein](http://www.complexity.ethz.ch/people/holthoma)
 
 ## Environmental Impacts, Threshold Levels and Health Effects
 
