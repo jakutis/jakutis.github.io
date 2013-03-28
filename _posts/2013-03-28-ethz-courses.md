@@ -5,7 +5,12 @@ date: 2013-03-28
 ---
 ## Functional Analysis II
 
-Lecturer: [Halil Mete Soner](http://www.math.ethz.ch/~hmsoner/background.html)
+* Lecturer: [Halil Mete Soner](http://www.math.ethz.ch/~hmsoner/background.html)
+* [Web page](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/fa2)
+* [Lecture notes](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/fa2/FA-I-II-26-8-08.pdf)
+* [Syllabus](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/fa2/syllabus.pdf)
+* [Exercises](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/fa2/uebungen)
+* Textbook: [2010 - Lawrence C. Evans - Partial Differential Equations](http://www.ams.org/bookstore-getitem/item=GSM-19-R)
 
 ## Algebraic Geometry
 
