@@ -1,4 +1,5 @@
 ---
+layout: post
 title: ETHZ courses I have tasted
 date: 2013-03-28
 ---
