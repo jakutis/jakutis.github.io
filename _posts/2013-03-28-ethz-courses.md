@@ -26,7 +26,15 @@ Lecturer: [Peter Widmayer](http://www.inf.ethz.ch/~widmayer/)
 
 ## Principles of Distributed Computing
 
-Lecturer: [Yvonne-Anne Pignolet](http://pignolet.webnode.com/)
+* Lecturer: [Yvonne-Anne Pignolet](http://pignolet.webnode.com/)
+* [Web page (lecture notes, exercises, syllabus)](http://www.disco.ethz.ch/lectures/podc/)
+* Textbooks:
+  * [2000 - David Peleg - Distributed Computing - A Locally-Sensitive Approach](http://epubs.siam.org/doi/book/10.1137/1.9780898719772)
+  * [2004 - Hagit Attiya, Jennifer Welch - Distributed computing - Fundamentals, Simulations and Advanced Topics](http://onlinelibrary.wiley.com/book/10.1002/0471478210)
+  * [2005 - Juraj Hromkovič, Ralf Klasing, Andrzej Pelc, Peter Ružička, Walter Unger - Dissemination of Information in Communication Networks - Broadcasting, Gossiping, Leader Election, and Fault-Tolerance](http://www.springer.com/computer/communication+networks/book/978-3-540-00846-0)
+  * 1992 - F. Thomson Leighton - Introduction to parallel algorithms and architectures
+  * [2009 - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein - Introduction To Algorithms](http://mitpress.mit.edu/books/introduction-algorithms)
+
 
 ## Cryptography
 
