@@ -1,9 +1,11 @@
 ---
 layout: post
-title: ETHZ courses I have tasted
+title: ETHZ courses
 date: 2013-03-28
 ---
-## Functional Analysis II
+## Visited on week 2013-03-25
+
+### Functional Analysis II
 
 * Lecturer: [Halil Mete Soner](http://www.math.ethz.ch/~hmsoner/background.html)
 * [Web page](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/fa2)
@@ -12,19 +14,19 @@ date: 2013-03-28
 * [Exercises](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/fa2/uebungen)
 * Textbook: [2010 - Lawrence C. Evans - Partial Differential Equations](http://www.ams.org/bookstore-getitem/item=GSM-19-R)
 
-## Algebraic Geometry
+### Algebraic Geometry
 
 Lecturer: [Rahul Pandharipande](http://www.math.ethz.ch/~rahul/cv.pdf)
 
-## Basic Group and Representation Theory
+### Basic Group and Representation Theory
 
 Lecturer: [Thomas Willwacher](http://www.math.harvard.edu/~wilthoma/)
 
-## Datenstrukturen und Algorithmen
+### Datenstrukturen und Algorithmen
 
 Lecturer: [Peter Widmayer](http://www.inf.ethz.ch/~widmayer/)
 
-## Principles of Distributed Computing
+### Principles of Distributed Computing
 
 * Lecturer: [Yvonne-Anne Pignolet](http://pignolet.webnode.com/)
 * [Web page (lecture notes, exercises, syllabus)](http://www.disco.ethz.ch/lectures/podc/)
@@ -36,14 +38,14 @@ Lecturer: [Peter Widmayer](http://www.inf.ethz.ch/~widmayer/)
   * [2009 - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein - Introduction To Algorithms](http://mitpress.mit.edu/books/introduction-algorithms)
 
 
-## Cryptography
+### Cryptography
 
 * Lecturer: [Ueli Maurer](http://www.crypto.ethz.ch/~maurer/)
 * [Web page](http://www.crypto.ethz.ch/teaching/lectures/Krypto13/)
 * [Syllabus](http://www.crypto.ethz.ch/teaching/lectures/Krypto13/info.pdf)
 * Exercises and lecture notes are not publicly available and there is no single textbook
 
-## Geometric Graphs: Combinatorics and Algorithms
+### Geometric Graphs: Combinatorics and Algorithms
 
 * Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
 * [Web page (exercises, syllabus)](http://www.ti.inf.ethz.ch/ew/lehre/GG13/)
@@ -52,11 +54,11 @@ Lecturer: [Peter Widmayer](http://www.inf.ethz.ch/~widmayer/)
   * [2004 - Takao Nishizeki, Md Saidur Rahman - Planar Graph Drawing](http://www.worldscientific.com/worldscibooks/10.1142/5648)
   * [2004 - Stefan Felsner - Geometric Graphs and Arrangements](http://www.springer.com/mathematics/geometry/book/978-3-528-06972-8)
 
-## Information Security
+### Information Security
 
 Lecturer: [Christoph Sprenger](http://people.inf.ethz.ch/csprenge/Home.html)
 
-## Graphs and Algorithms
+### Graphs and Algorithms
 
 * Lecturer: [Johannes Lengler](http://www.cadmo.ethz.ch/as/people/members/lenglerj)
 * [Web page (syllabus, exercises)](http://www.cadmo.ethz.ch/education/lectures/FS13/graph_algo)
@@ -67,22 +69,30 @@ Lecturer: [Christoph Sprenger](http://people.inf.ethz.ch/csprenge/Home.html)
   * [2008 - Adrian Bondy, U.S.R. Murty - Graph Theory](http://www.springer.com/new+%26+forthcoming+titles+%28default%29/book/978-1-84628-969-9)
   * [2008 - Steven S. Skiena - The Algorithm Design Manual](http://www.springer.com/computer/theoretical+computer+science/book/978-1-84800-069-8)
 
-## Satisfiability of Boolean Formulas: Combinatorics and Algorithms
+### Satisfiability of Boolean Formulas: Combinatorics and Algorithms
 
 * Lecturer: [Emo Welzl](http://www.inf.ethz.ch/personal/emo/)
 * [Web page (syllabus)](http://www.ti.inf.ethz.ch/ew/lehre/SAT13/)
 * Exercises and lecture notes are not publicly available and there is no single textbook
 
-## Complexity Theoretic Cryptography
+### Complexity Theoretic Cryptography
 
 * Lecturer: [Thomas Holenstein](http://www.complexity.ethz.ch/people/holthoma)
 * [Web page (syllabus, exercises, lecture notes)](http://www.complexity.ethz.ch/education/Lectures/CtcFS13)
 * Textbook: [2001 - Oded Goldreich - The Foundations of Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-vol1.html)
 
-## Environmental Impacts, Threshold Levels and Health Effects
+### Environmental Impacts, Threshold Levels and Health Effects
 
 Lecturer: [Christian-Thomas Monn](http://www.vvz.ethz.ch/Vorlesungsverzeichnis/dozentPre.do?dozide=10003163&semkez=2013S&lang=en&ansicht=1)
 
-## System Construction
+### System Construction
 
 Lecturer: [Felix Friedrich](http://www.nativesystems.inf.ethz.ch/Main/FelixFriedrich)
+
+## Not visited, but wanted
+
+### Complexity Theory
+
+* Lecturer: [Thomas Holenstein](http://www.complexity.ethz.ch/people/holthoma)
+* [Web page (syllabus, lecture notes, exercises)](http://www.complexity.ethz.ch/education/Lectures/ComplexityFS13)
+* Textbook: [2009 - Sanjeev Arora, Boaz Barak - Computational complexity - A modern approach](http://www.cs.princeton.edu/theory/complexity/)
