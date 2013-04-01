@@ -20,7 +20,10 @@ Lecturer: [Rahul Pandharipande](http://www.math.ethz.ch/~rahul/cv.pdf)
 
 ### Basic Group and Representation Theory
 
-Lecturer: [Thomas Willwacher](http://www.math.harvard.edu/~wilthoma/)
+* Lecturer: [Thomas Willwacher](http://www.math.harvard.edu/~wilthoma/)
+* [Web page (syllabus, exercises)](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/401-3202-13)
+* [Lecture notes](http://www.math.ethz.ch/%7Ewilthoma/rep.pdf)
+* No textbook
 
 ### Datenstrukturen und Algorithmen
 
