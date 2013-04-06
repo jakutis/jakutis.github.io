@@ -99,7 +99,11 @@ Lecturer: [Christian-Thomas Monn](http://www.vvz.ethz.ch/Vorlesungsverzeichnis/d
 
 * Lecturer: [Felix Friedrich](http://www.nativesystems.inf.ethz.ch/Main/FelixFriedrich)
 * [Web page (syllabus, slides, exercises)](http://www.nativesystems.inf.ethz.ch/WebHomeLecturesSystembau)
-* There is no textbook
+* Textbooks:
+  * [1992 - Niklaus Wirth, Jürg Gutknecht - Project Oberon - The Design of an Operating System and Compiler](http://www.inf.ethz.ch/personal/wirth/books/ProjOberon/)
+  * [1996 - Niklaus Wirth - Compiler construction](http://www.inf.ethz.ch/personal/wirth/books/CompilerConstruction/)
+  * [2002 - Pieter Johannes Muller - The active object system design and multiprocessor implementation](http://e-collection.library.ethz.ch/view/eth:26082)
+  * [2011 - Randal E. Bryant, David Richard OHallaron - Computer Systems - A Programmers Perspective](http://www.pearsonhighered.com/product?ISBN=0136108040)
 
 ## Not visited, but wanted
 
