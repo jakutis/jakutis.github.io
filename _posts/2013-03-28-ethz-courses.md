@@ -31,7 +31,10 @@ date: 2013-03-28
 
 ### Datenstrukturen und Algorithmen
 
-Lecturer: [Peter Widmayer](http://www.inf.ethz.ch/~widmayer/)
+* Lecturer: [Peter Widmayer](http://www.inf.ethz.ch/~widmayer/)
+* [Web page](http://www.cadmo.ethz.ch/education/lectures/FS13/DA)
+* No syllabus, lecture notes or exercises are publicly available
+* Textbook: [2012 - Thomas Ottmann, Peter Widmayer - Algorithmen und Datenstrukturen](http://dx.doi.org/10.1007/978-3-8274-2804-2)
 
 ### Principles of Distributed Computing
 
