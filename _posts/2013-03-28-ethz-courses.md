@@ -97,7 +97,9 @@ Lecturer: [Christian-Thomas Monn](http://www.vvz.ethz.ch/Vorlesungsverzeichnis/d
 
 ### System Construction
 
-Lecturer: [Felix Friedrich](http://www.nativesystems.inf.ethz.ch/Main/FelixFriedrich)
+* Lecturer: [Felix Friedrich](http://www.nativesystems.inf.ethz.ch/Main/FelixFriedrich)
+* [Web page (syllabus, slides, exercises)](http://www.nativesystems.inf.ethz.ch/WebHomeLecturesSystembau)
+* There is no textbook
 
 ## Not visited, but wanted
 
