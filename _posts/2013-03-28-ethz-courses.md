@@ -16,7 +16,11 @@ date: 2013-03-28
 
 ### Algebraic Geometry
 
-Lecturer: [Rahul Pandharipande](http://www.math.ethz.ch/~rahul/cv.pdf)
+* Lecturer: [Rahul Pandharipande](http://www.math.ethz.ch/~rahul/cv.pdf)
+* [Web page (syllabus)](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/alg_geom)
+* [Exercises](http://www.math.ethz.ch/education/bachelor/lectures/fs2013/math/alg_geom/uebungen)
+* No lecture notes
+* Textbook: [1992 - Joe Harris - Algebraic geometry - A first course](http://www.springer.com/mathematics/algebra/book/978-0-387-97716-4)
 
 ### Basic Group and Representation Theory
 
