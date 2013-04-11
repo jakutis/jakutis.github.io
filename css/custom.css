@@ -6,3 +6,7 @@ ul.app-posts li {
 .highlight pre {
     background: #1c1c1c;
 }
+
+td, th {
+    border-width: 1px;
+}
