@@ -8,5 +8,5 @@ ul.app-posts li {
 }
 
 td, th {
-    border-width: 1px;
+    border: 1px solid #ccc;
 }
