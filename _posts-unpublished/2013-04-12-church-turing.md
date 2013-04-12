@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Church-Turing tezė
-date: 2013-04-13
+date: 2013-04-12
 ---
 **Apibrėžimas.** Tiuringo mašina yra 7 elementų kortežas $$(Q, \Sigma, \Gamma, \delta, q_0, q_p, q_a)$$; čia:
 
