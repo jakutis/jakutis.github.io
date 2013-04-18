@@ -66,6 +66,8 @@ Ar egzistuoja toks algoritmas, kuris pasakytų, ar duota Tiuringo mašina tiksli
 Atsakymas yra neigiamas - bendru atveju algoritminis algoritmo korektiškumo nustatymas negali būti įgyvendinamas Tiuringo mašina.
 Toliau esanti teorema yra šio teiginio formalus užrašymas.
 
+**Apibrėžimas.** Objekto $$O$$ užkodavimu yra objekto $$O$$ pateikimas simbolių eilute ir žymimas $$\langle O \rangle$$.
+
 **Teorema.** Kalba $$A_{TM} = \{ \langle M, \omega \rangle: \text{$M$ yra Tiuringo mašina ir $M$ priima $\omega$}\}$$ yra nenusprendžiama.
 
 **Apibrėžimas.** Kalba $$A_{TM}$$ yra vadinama priėmimo uždaviniu.
