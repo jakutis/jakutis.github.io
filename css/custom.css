@@ -10,3 +10,8 @@ ul.app-posts li {
 td, th {
     border: 1px solid #ccc;
 }
+
+img.logo {
+    float: left;
+    margin: 2px 20px 2px 0;
+}
