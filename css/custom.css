@@ -15,6 +15,10 @@ td.linenos, td.code {
     border: 0
 }
 
+td.linenos {
+    width: 60px;
+}
+
 td, th {
     border: 1px solid #ccc;
 }
