@@ -11,6 +11,10 @@ ul.app-posts li {
     line-height: 14px;
 }
 
+td.linenos, td.code {
+    border: 0
+}
+
 td, th {
     border: 1px solid #ccc;
 }
