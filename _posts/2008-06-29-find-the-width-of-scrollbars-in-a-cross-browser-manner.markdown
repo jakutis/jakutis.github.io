@@ -9,7 +9,7 @@ wordpress_url: !binary |-
 date: 2008-06-29 21:01:56.000000000 +00:00
 ---
 
-{% highlight javascript %}
+{% highlight javascript linenos=table %}
     var div = document.createElement('div');
     div.style.width = '50px';
     div.style.position = 'absolute';

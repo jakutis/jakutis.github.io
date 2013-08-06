@@ -11,7 +11,7 @@ So this Sunday, instead of working, I worked on working and came up with this pr
 It is inpired by [The Pomodoro Technique](http://www.pomodorotechnique.com/).
 Also, [@frgtn](http://twitter.com/frgtn) contributed the idea to make it a bit more universal than just a start-stop button and a timer: activity label, customizable time and the log with local storage were implemented. The source code:
 
-{% highlight html %}
+{% highlight html linenos=table %}
 <html>
   <head>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>

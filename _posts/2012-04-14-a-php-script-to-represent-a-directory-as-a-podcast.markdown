@@ -8,7 +8,7 @@ date: 2012-04-14 22:47:34.000000000 +00:00
 ---
 This recursively finds all files in the given directory, sorts them by last modification date and generates an RSS/Atom feed for your consumption.
 
-{% highlight php linenos %}
+{% highlight php linenos=table %}
 <?php
 
 $dir = 'INSERT_FILESYSTEM_DIRECTORY_HERE_WITHOUT_TRAILING_SLASH';
