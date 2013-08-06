@@ -7,6 +7,10 @@ ul.app-posts li {
     background: #1c1c1c;
 }
 
+.highlighttable pre code {
+    line-height: 14px;
+}
+
 td, th {
     border: 1px solid #ccc;
 }
