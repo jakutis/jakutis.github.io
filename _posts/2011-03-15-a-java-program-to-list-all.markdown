@@ -8,7 +8,11 @@ wordpress_url: !binary |-
   aHR0cDovL3Z5dGF1dGFzLmpha3V0aXMubmFtZS8/cD00MQ==
 date: 2011-03-15 20:21:08.000000000 +00:00
 ---
-{% highlight java %}
+*Edit.* This post is made obsolete by [https://jakut.is/2013/08/06/a-java-program-to-list-all-duplicates-update](A Java program to recursively find all duplicate files in a directory [revision 2]).
+
+***
+
+{% highlight java linenos=table %}
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
