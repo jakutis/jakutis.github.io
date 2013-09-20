@@ -25,7 +25,7 @@ date: 2012-10-21
 * [Institute for Quantum Computing](http://iqc.ca/)
   * [Institute for Quantum Computing](http://www.youtube.com/quantumiqc) - YouTube
 * [Institute for Quantum Information](http://www.iqi.caltech.edu/)
-* [LANL | Centers | Quantum Institute](http://lanl.gov/science/centers/quantum/)
+* [LANL - Centers - Quantum Institute](http://lanl.gov/science/centers/quantum/)
   * [Quantum Information Science and Technology Roadmapping Project](http://qist.lanl.gov/)
 * [Institute for Quantum Information Science at the University of Calgary](http://iqis.org/)
 
