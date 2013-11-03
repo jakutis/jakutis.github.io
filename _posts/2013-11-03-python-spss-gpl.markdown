@@ -4,12 +4,12 @@ title: Taking control of charts in SPSS
 date: 2013-11-03 23:08:00.000000000 +02:00
 ---
 Below is an example script that draws simple bar charts.
-It was the only acceptable way for me to do automatically generate charts in SPSS.
+It was the only acceptable way for me to programmatically generate charts in SPSS.
 There is something to note here - this solution needs tree distinct scripting languages:
 
-* [Python](http://python.org) - which is integrated in SPSS 22. For older versions you need a [Python plugin](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We70df3195ec8_4f95_9773_42e448fa9029/page/Downloads%20for%20IBM%C2%AE%20SPSS%C2%AE%20Statistics)
-* [SPSS Command Syntax](http://pic.dhe.ibm.com/infocenter/spssstat/v20r0m0/index.jsp?topic=%2Fcom.ibm.spss.statistics.help%2Fsyn_refintro_overview.htm)
-* [Graphics Production Language (GPL)](http://pic.dhe.ibm.com/infocenter/spssstat/v20r0m0/index.jsp?topic=%2Fcom.ibm.spss.statistics.help%2Fgpl_intro_basics.htm)
+0. The script is written in [Python](http://python.org) - which is integrated in SPSS 22. For older versions you need a [Python plugin](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We70df3195ec8_4f95_9773_42e448fa9029/page/Downloads%20for%20IBM%C2%AE%20SPSS%C2%AE%20Statistics).
+0. The code in `SpssClient.RunSyntax` call is in [SPSS Command Syntax](http://pic.dhe.ibm.com/infocenter/spssstat/v20r0m0/index.jsp?topic=%2Fcom.ibm.spss.statistics.help%2Fsyn_refintro_overview.htm)
+0. The code between `BEGIN GPL` and `END GPL` is in [Graphics Production Language (GPL)](http://pic.dhe.ibm.com/infocenter/spssstat/v20r0m0/index.jsp?topic=%2Fcom.ibm.spss.statistics.help%2Fgpl_intro_basics.htm)
 
 {% highlight python linenos=table %}
 import SpssClient
@@ -57,3 +57,5 @@ for column in ["color", "brand"]:
 SpssClient.StopClient()
 print("Finished.")
 {% endhighlight %}
+
+P.S. Yes, I am aware of a performance bug in `export_chart` function where it parses the XMLs of each `OutputItem`
