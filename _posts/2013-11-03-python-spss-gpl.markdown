@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taking control of charts in SPSS
-date: 2013-08-06 16:30:00.000000000 +00:00
+date: 2013-11-03 23:08:00.000000000 +02:00
 ---
 Below is an example script that draws simple bar charts.
 It was the only acceptable way for me to do automatically generate charts in SPSS.
