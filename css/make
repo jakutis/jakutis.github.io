@@ -1,6 +1,0 @@
-cleancss -o custom.min.css custom.css
-cleancss -o bootstrap.min.css bootstrap.css
-cleancss -o pygments-solarized.min.css pygments-solarized.css
-cleancss -o cgit.min.css cgit.css
-cat bootstrap.min.css pygments-solarized.min.css custom.min.css > style.css
-cat cgit.min.css pygments-solarized.min.css > style-cgit.css
