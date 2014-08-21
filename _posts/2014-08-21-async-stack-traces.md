@@ -3,8 +3,8 @@ layout: post
 title: Getting full stack traces in asynchronous JavaScript code
 date: Thu Aug 21 05:46:31 UTC 2014
 ---
-If all the codebase uses the two methods `.setImmediate` and `.nextTick` from the library [async](https://www.npmjs.org/package/async),
-then after we do the following monkey-patching we can call the function `global.printStack()` to get the full stack trace.
+If your codebase uses the two methods `.setImmediate` and `.nextTick` from the library [async](https://www.npmjs.org/package/async),
+then after doing the following monkey-patching you can call the function `global.printStack()` to get the full stack trace.
 
 {% highlight javascript linenos=table %}
 var a = require('async');
