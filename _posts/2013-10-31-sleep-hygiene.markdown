@@ -49,9 +49,9 @@ The goal of sleep hygiene is to stabilize the circadian rhythm.
 3. Concentrating on the rhythmic rise and fall of your breathing.
 4. Focusing on a mantra (repeating a word or phrase constantly).
 5. Eating a light and mild snack with [amino acids](http://en.wikipedia.org/wiki/Essential_amino_acid#Recommended_daily_amounts) (especially [tryptophan](http://en.wikipedia.org/wiki/Tryptophan) and [complex carbohydrates](http://en.wikipedia.org/wiki/Carbohydrate) (oligosaccarides, polysaccharides).
-6. Sitting quietly on the couch with the lights off and a cup of caffeine-free tea.
+6. <s>Sitting quietly on the couch with the lights off and a cup of caffeine-free tea.</s>
 7. Reading something boring, like a telephone book.
-8. Joga.
+8. <s>Joga.</s>
 9. Deep breathing.
 10. Listening to a relaxing audio.
 
