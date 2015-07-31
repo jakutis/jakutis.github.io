@@ -1,8 +1,7 @@
 permalink: /:categories/:year/:month/:day/:title
 markdown: kramdown
 exclude: ["_posts-imported", "_posts-unpublished"]
-auto: true
-pygments: true
+highlighter: true
 paginate: 5
 safe: true
 production_url : https://jakut.is
