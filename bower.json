@@ -1,6 +1,7 @@
 {
   "name": "blog",
   "version": "0.0.0",
+  "private": true,
   "authors": [
     "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is/)"
   ],
