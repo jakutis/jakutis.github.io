@@ -1,2 +1,4 @@
 /bower_components
 /_site
+/css/style-*.css
+/node_modules
