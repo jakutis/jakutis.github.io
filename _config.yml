@@ -3,7 +3,7 @@ markdown: kramdown
 exclude: ["_posts-imported", "_posts-unpublished"]
 highlighter: true
 paginate: 5
-safe: true
+safe: false
 production_url : https://jakut.is
 url : https://jakut.is
 title : Vytautas Jakutis
