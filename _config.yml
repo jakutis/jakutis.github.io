@@ -1,6 +1,6 @@
 permalink: /:categories/:year/:month/:day/:title
 markdown: kramdown
-exclude: ["_posts-imported"]
+exclude: ["_posts-imported", "_posts-unpublished"]
 auto: true
 pygments: true
 paginate: 5
@@ -11,5 +11,5 @@ title : Vytautas Jakutis
 author :
   name : Vytautas Jakutis
   email : vytautas@jakut.is
-  github : tahu
-  twitter : tahu
+  github : jakutis
+  twitter : jakutis0
