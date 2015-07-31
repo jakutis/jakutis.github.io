@@ -28,9 +28,10 @@ td, th {
     border: 1px solid #ccc;
 }
 
-img.logo {
-    float: left;
-    margin: 2px 20px 2px 0;
+img.photo {
+    height: 32px;
+    margin-top: -7px;
+    margin-right: 15px;
 }
 
 .linenodiv pre {
