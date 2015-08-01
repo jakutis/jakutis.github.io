@@ -6,7 +6,7 @@ ul.app-posts li {
 .highlight pre {
     border: 0;
     background: #1c1c1c;
-    width: 800px;
+    width: 854px;
     overflow-x: auto;
     white-space: pre;
     word-break: normal;
@@ -33,7 +33,8 @@ td, th {
     border: 1px solid #ccc;
 }
 
-img.photo {
+a.navbar-brand img.photo {
+    display: inline;
     height: 32px;
     margin-top: -7px;
     margin-right: 15px;
@@ -43,4 +44,8 @@ img.photo {
     border: 0;
     text-align: right;
     background: transparent;
+}
+
+.linenodiv pre code {
+    word-break: normal;
 }
