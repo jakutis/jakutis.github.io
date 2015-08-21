@@ -3,7 +3,7 @@ layout: post
 title: Find all occurences of a given value deep in the object/array tree
 date: Fri Aug 21 16:41:35 EEST 2015
 ---
-This is sometimes usefull when debugging/trying to learn a complex JavaScript codebase:
+This is sometimes useful when debugging/trying to learn a complex JavaScript codebase:
 
 {% highlight javascript linenos=table %}
 function findOccurences(haystack, needle) {
