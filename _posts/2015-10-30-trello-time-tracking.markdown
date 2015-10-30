@@ -3,7 +3,9 @@ layout: post
 title: Reviews of time tracking apps for Trello
 date: Fri Oct 30 13:47:50 EET 2015
 ---
-From [the original list](http://help.trello.com/article/941-time-tracking):
+The list of apps is taken from [the Trello Help](http://help.trello.com/article/941-time-tracking).
+
+# Pros and Cons
 
 * [everhour.com](https://everhour.com)
   * ⊖ 14 day trial model
@@ -50,7 +52,8 @@ From [the original list](http://help.trello.com/article/941-time-tracking):
   * ⊕ pomodoro
 * [timepeeking.com](https://timepeeking.com)
   * ⊖ ad model
-  * ⊖ bad trello * ⊖ create trello cards from timepeeking
+  * ⊖ bad trello
+  * ⊖ create trello cards from timepeeking
 * [toggl.com](https://toggl.com/)
   * ⊕ freemium model
   * ⊕ cool website
@@ -61,7 +64,8 @@ From [the original list](http://help.trello.com/article/941-time-tracking):
   * ⊖ trial model
   * ⊕ trello
   * ⊖ invoice-focused
-  * ⊖ bad chrome extension * ⊖ tracks all web activity
+  * ⊖ bad chrome extension
+  * ⊖ tracks all web activity
 * [plusfortrello.com](http://www.plusfortrello.com/)
   * ⊕ opensource model
   * ⊕ trello
@@ -103,6 +107,6 @@ From [the original list](http://help.trello.com/article/941-time-tracking):
 
 # Winners
 
-1st place: [punchti.me](http://www.punchti.me/)
-2nd place: [toggl.com](https://toggl.com/)
-3rd place: [plusfortrello.com](http://www.plusfortrello.com/)
+* 1st place: [punchti.me](http://www.punchti.me/)
+* 2nd place: [toggl.com](https://toggl.com/)
+* 3rd place: [plusfortrello.com](http://www.plusfortrello.com/)
