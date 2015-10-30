@@ -14,14 +14,18 @@ The list of apps is taken from [the Trello Help](http://help.trello.com/article/
   * ⊖ no trello
 * [punchti.me](http://www.punchti.me/)
   * ⊕ freemium model
-  * ⊕ trello
+  * ⊕ best trello
   * ⊕ chrome extension
   * ⊕ cool name
   * ⊕ android app
+  * ⊕ iphone app
+  * ⊖ ipad app
   * ⊕ can close account
-  * ⊕ data export
+  * ⊖ data export only with premium
   * ⊕ google login
   * ⊖ no pomodoro
+  * ⊖ frequent 503 service unavailable
+  * ⊖ loads slowly
 * [timefortrello.com](http://www.timefortrello.com/)
   * ⊖ 3 month trial model
   * ⊖ bad website
@@ -58,8 +62,14 @@ The list of apps is taken from [the Trello Help](http://help.trello.com/article/
   * ⊕ freemium model
   * ⊕ cool website
   * ⊕ chrome extension
-  * ⊕ trello
-  * ⊖ notifications reminding to track time
+  * ⊕ exporting is free and works
+  * ⊕ google login
+  * ⊕ android app
+  * ⊕ ios app
+  * ⊖ ipad app
+  * ⊖ no pomodoro
+  * ⊖ bad trello - does only two things: 1. add start/stop button to trello cards. 2. creates a log item with trello card title, but no other binding
+  * ⊕ customizable notifications reminding to track time
 * [paydirtapp.com](https://paydirtapp.com/)
   * ⊖ trial model
   * ⊕ trello
