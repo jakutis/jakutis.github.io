@@ -14,7 +14,7 @@ The list of apps is taken from [the Trello Help](http://help.trello.com/article/
   * ⊖ no trello
 * [punchti.me](http://www.punchti.me/)
   * ⊕ freemium model
-  * ⊕ best trello
+  * ⊕ best trello, except it requires each card to be assigned so you can log it
   * ⊕ chrome extension
   * ⊕ cool name
   * ⊕ android app
