@@ -1,0 +1,86 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "dependencies": {
+    "clean-css": {
+      "version": "3.4.6",
+      "from": "clean-css@3.4.6",
+      "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/clean-css/-/clean-css-3.4.6.tgz",
+      "dependencies": {
+        "commander": {
+          "version": "2.8.1",
+          "from": "commander@>=2.8.0 <2.9.0",
+          "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/commander/-/commander-2.8.1.tgz",
+          "dependencies": {
+            "graceful-readlink": {
+              "version": "1.0.1",
+              "from": "graceful-readlink@>=1.0.0",
+              "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/graceful-readlink/-/graceful-readlink-1.0.1.tgz"
+            }
+          }
+        },
+        "source-map": {
+          "version": "0.4.4",
+          "from": "source-map@>=0.4.0 <0.5.0",
+          "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/source-map/-/source-map-0.4.4.tgz",
+          "dependencies": {
+            "amdefine": {
+              "version": "1.0.0",
+              "from": "amdefine@>=0.0.4",
+              "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/amdefine/-/amdefine-1.0.0.tgz"
+            }
+          }
+        }
+      }
+    },
+    "uglify-js": {
+      "version": "2.5.0",
+      "from": "uglify-js@2.5.0",
+      "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-2.5.0.tgz",
+      "dependencies": {
+        "async": {
+          "version": "0.2.10",
+          "from": "async@>=0.2.6 <0.3.0",
+          "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/async/-/async-0.2.10.tgz"
+        },
+        "source-map": {
+          "version": "0.5.3",
+          "from": "source-map@>=0.5.1 <0.6.0",
+          "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/source-map/-/source-map-0.5.3.tgz"
+        },
+        "uglify-to-browserify": {
+          "version": "1.0.2",
+          "from": "uglify-to-browserify@>=1.0.0 <1.1.0",
+          "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz"
+        },
+        "yargs": {
+          "version": "3.5.4",
+          "from": "yargs@>=3.5.4 <3.6.0",
+          "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/yargs/-/yargs-3.5.4.tgz",
+          "dependencies": {
+            "camelcase": {
+              "version": "1.2.1",
+              "from": "camelcase@>=1.0.2 <2.0.0",
+              "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/camelcase/-/camelcase-1.2.1.tgz"
+            },
+            "decamelize": {
+              "version": "1.1.1",
+              "from": "decamelize@>=1.0.0 <2.0.0",
+              "resolved": "http://repo.dev.wix/artifactory/api/npm/npm-repos/decamelize/-/decamelize-1.1.1.tgz"
+            },
+            "window-size": {
+              "version": "0.1.0",
+              "from": "window-size@0.1.0",
+              "resolved": "https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz"
+            },
+            "wordwrap": {
+              "version": "0.0.2",
+              "from": "wordwrap@0.0.2",
+              "resolved": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}
