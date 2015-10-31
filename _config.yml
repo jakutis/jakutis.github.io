@@ -1,10 +1,11 @@
-permalink: /:categories/:year/:month/:day/:title
+permalink: pretty
 markdown: kramdown
 exclude: ["_posts-imported", "_posts-unpublished", "vendor"]
 highlighter: pygments
 gems: [jekyll-paginate]
 paginate: 5
 safe: false
+incremental: true
 production_url : https://jakut.is
 url : https://jakut.is
 title : Vytautas Jakutis
