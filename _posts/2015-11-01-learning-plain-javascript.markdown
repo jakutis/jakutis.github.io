@@ -3,6 +3,8 @@ layout: post
 title: Learning plain JavaScript
 date: Sun Nov  1 22:27:21 EET 2015
 ---
+Instead of all of the below, you can use [this list](https://github.com/ericelliott/essential-javascript-links), which is constantly updated by multiple contributors.
+
 # Web pages - courses, articles, videos, games, etc.
 
 * <https://github.com/sorrycc/awesome-javascript>
