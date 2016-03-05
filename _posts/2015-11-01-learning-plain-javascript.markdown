@@ -4,6 +4,7 @@ title: Learning plain JavaScript
 date: Sun Nov  1 22:27:21 EET 2015
 ---
 Instead of all of the below, you can use [this list](https://github.com/ericelliott/essential-javascript-links), which is constantly updated by multiple contributors.
+Or <http://derickbailey.com/2016/02/01/some-javascript-book-recommendations/>.
 
 # Web pages - courses, articles, videos, games, etc.
 
