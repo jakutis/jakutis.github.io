@@ -4,8 +4,8 @@ ul.app-posts li {
 }
 
 .highlight pre {
+    padding-top: 4px;
     border: 0;
-    width: 854px;
     overflow-x: auto;
     white-space: pre;
     word-break: normal;
