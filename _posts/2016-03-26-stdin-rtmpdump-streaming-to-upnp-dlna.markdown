@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Live streaming stdout (e.g. of rtmpdump or ffmpeg) to an UPnP/DLNA MediaRenderer
+title: Live streaming stdout (e.g. of rtmpdump or ffmpeg) to UPnP/DLNA MediaRenderer
 date: Sat Mar 26 17:15:33 EET 2016
 ---
 First, create file `stdin-to-http.js`:
