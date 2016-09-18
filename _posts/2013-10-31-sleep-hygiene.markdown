@@ -9,16 +9,16 @@ During the whole day (between waking up and getting to sleep):
 
 - make sure the room contains no electronics
 - do not use the bed for anything
-- make sure your bed matress is neither too soft, nor too hard
+- make sure the bed matress is neither too soft, nor too hard
 - make sure the room receives as much sunlight as possible
 - receive as much fresh air and sunlight as possible
-- set aside 8 hours for purely sleep time
+- set aside 8h for purely sleep time
 - do not consume caffeine
 - do not sleep or nap
-- begin your day with only stimulating activities, gradually transform into doing calming activities, and end only with them
+- begin the day with only stimulating activities, gradually transform into doing calming activities, and end only with them
 - wake up and go to bed at the same time every day (have alarm clocks both for waking up, 06:30 for first "ASAP", and going to bed, 21:30 for first "just before")
 - do not avoid planned daytime activities, even if feeling tired
-- if working 8 hours in an office, do at least 10min break outside (e.g. go buy groceries for lunch)
+- if working 8h in an office, do at least 10min break outside (e.g. go buy groceries for lunch)
 
 After wake up:
 
@@ -32,9 +32,9 @@ Before sleep:
 
 - after 18:00: do not look at any electronic screens (especially the back-litten blue screens, only with the unavoidable exceptions, like journal or porn, but with lowest brightness setting)
 - after 18:00: do not take any foods or fluids
-- as early as possible: ventilate the room with at most 21 degree Celcius fresh air (e.g. turn on AC, open all windows)
-- at least 5 hours before sleep: have at least 10min exercise
-- just before #5: prepare your clothes and other things for tomorrow
+- as early as possible: ventilate the room with at most 21°C fresh air (e.g. turn on AC, open all windows)
+- at least 5h before sleep: have at least 10min exercise
+- just before #5: prepare the clothes and other things for tomorrow
 - just before #4: write down your thoughts (if not dark yet - with a pen on a paper journal, so that no need for bright ambient light, and if dark - on an iPad with lowest brightness)
 - just before #3: until feeling tired and sleepy read a physical book that is not stimulating
 - just before #2: have a hot bath or shower
