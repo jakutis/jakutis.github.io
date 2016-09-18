@@ -41,8 +41,8 @@ Before sleep:
 - just before #1: make the room as dark as possible (or wear eyemask)
 - just before #0: make the room as silent as possible (or wear earplugs)
 - just before #-1: get into bed on the back with covers, without a pillow and without clothes, but with warm enough socks
-- just before #-2: if not asleep, have sex
-- just before #-3: if not asleep after ~20 minutes, do sleep meditation (e.g. deep breathing and listening, or Headspace -> Singles -> On-the-go -> Sleep #2 meditation, or direct the mind to the body, think about how it feels, think through the day from start to finish in 30s, scan the body from bottom to top, all the time switching off the muscles, start counting down from 1000)
+- just before #-2: if not falling asleep after ~20 minutes, have sex
+- just before #-3: if not falling asleep, do sleep meditation (e.g. deep breathing and listening, or Headspace -> Singles -> On-the-go -> Sleep #2 meditation, or direct the mind to the body, think about how it feels, think through the day from start to finish in 30s, scan the body from bottom to top, all the time switching off the muscles, start counting down from 1000)
 - sleep
 
 ---
