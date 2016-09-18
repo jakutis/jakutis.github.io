@@ -47,6 +47,7 @@ Before sleep:
 - sleep
 
 ---
+
 # Revision 1 (2013-10-31)
 
 This is my personal, unprofessional, work-in-progress review of various laymen literature about improving sleep, the most important activity.
