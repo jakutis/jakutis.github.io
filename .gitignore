@@ -4,3 +4,5 @@
 /js/script-*.js
 /node_modules
 /vendor
+/.jekyll-metadata
+/.bundle
