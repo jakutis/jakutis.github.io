@@ -34,10 +34,9 @@ Before sleep:
 - after 18:00: do not take any foods or fluids
 - as early as possible: ventilate the room with at most 21 degree Celcius fresh air (e.g. turn on AC, open all windows)
 - at least 5 hours before sleep: have at least 10minute exercise
-- just before #6: prepare your clothes and other things for tomorrow
-- just before #5: write down your thoughts (if not dark yet - with a pen on a paper journal, so that no need for bright ambient light, and if dark - on an iPad with lowest brightness)
-- just before #4: go to bed when feeling tired and sleepy
-- just before #3: read a physical book that is not stimulating
+- just before #5: prepare your clothes and other things for tomorrow
+- just before #4: write down your thoughts (if not dark yet - with a pen on a paper journal, so that no need for bright ambient light, and if dark - on an iPad with lowest brightness)
+- just before #3: until feeling tired and sleepy read a physical book that is not stimulating
 - just before #2: have a hot bath or shower
 - just before #1: make the room as dark as possible (or wear eyemask)
 - just before #0: make the room as silent as possible (or wear earplugs)
