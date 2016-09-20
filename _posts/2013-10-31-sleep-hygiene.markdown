@@ -13,7 +13,7 @@ During the whole day (between waking up and getting to sleep):
 - make sure the room receives as much sunlight as possible
 - receive as much fresh air and sunlight as possible
 - set aside 8h for purely sleep time
-- do not consume caffeine
+- do not consume stimulating substances (i.e. caffeine, nicotine, etc.)
 - do not sleep or nap
 - begin the day with only stimulating activities, gradually transform into doing calming activities, and end only with them
 - wake up and go to bed at the same time every day (have alarm clocks both for waking up, 06:30 for first "ASAP", and going to bed, 21:30 for first "just before")
