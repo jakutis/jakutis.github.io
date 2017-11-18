@@ -6,3 +6,5 @@
 /vendor
 /.jekyll-metadata
 /.bundle
+/Gemfile.lock
+/package-lock.json
