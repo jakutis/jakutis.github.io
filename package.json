@@ -7,8 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-css": "VERSION=\"$(git rev-parse --short HEAD)\";cd css && (cat pygments-solarized.css custom.css | cleancss > style-$VERSION.css) && (cat cgit.css pygments-solarized.css | cleancss > style-cgit-$VERSION.css)",
-    "compile-js": "VERSION=\"$(git rev-parse --short HEAD)\";cd js && (echo \"\" | uglifyjs > script-$VERSION.js)",
-    "postinstall": "bundle install --path vendor/bundle && bower install && npm run compile-css && npm run compile-js && jekyll build",
+    "postinstall": "bundle install --path vendor/bundle && bower install && npm run compile-css && jekyll build",
     "deploy": "rm -rf _site && npm install && cd _site && 7za a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on ../_site.7z . && cd .. && scp _site.7z jakut.is: && rm _site.7z && ssh jakut.is \"rm -r /home/jakutis/.local/share/dotfiles/blog-generated && 7za x _site.7z -o/home/jakutis/.local/share/dotfiles/blog-generated && rm _site.7z && echo deployed\""
   },
   "repository": {
