@@ -3,7 +3,7 @@ markdown: kramdown
 exclude: ["_posts-imported", "_posts-unpublished", "vendor"]
 highlighter: pygments
 gems: [jekyll-paginate]
-paginate: 5
+paginate: 9
 safe: false
 incremental: true
 production_url : https://jakut.is
