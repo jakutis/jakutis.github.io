@@ -35,7 +35,7 @@ But they are non-negotiable items to ensure about your bed time.
 The 5th, 6th, 7th and 8th mistakes are which you must also start understanding.
 Either you plan your day time to avoid them or you will wake up groggy, no matter the duration you were asleep.
 
-The last four mistakes are arguably non-obvious ones, but avoiding them is proven to improve your sleep.
+Avoiding the last four mistakes is also proven to improve your sleep.
 
 ---
 
