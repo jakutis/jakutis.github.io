@@ -3,6 +3,42 @@ layout: post
 title: Sleep hygiene
 date: 2013-10-31 00:00:00.000000000 +00:00
 ---
+# Revision 3 (2018-01-28)
+
+Start with [a video by Matthew Walker - Why We Sleep](https://www.youtube.com/watch?v=aXflBZXAucQ).
+
+Then you can read the [Sleep Smarter](https://www.amazon.com/Sleep-Smarter-Essential-Strategies-Success/dp/1536618314) and [The Power of When](https://www.amazon.com/Power-When-Discover-Chronotype-Lunch/dp/B01KGEGR7E) books and/or watch their corresponding videos:
+
+* [Shawn Stevenson - Sleep Smarter](https://www.youtube.com/watch?v=Fu6lbDBEnlY)
+* [Michael Breus - The Power of When](https://www.youtube.com/watch?v=DcK2b01nk3A)
+* ... for more - [search Youtube with "google talks sleep"](https://www.youtube.com/results?search_query=google+talks+sleep)
+
+The goal of sleep hygiene is to avoid mistakes of not acting in accordance with your biological circadian rhythm.
+In the order of importance:
+
+1. not setting aside 7-9 hours just for sleep (with late stimulating activities and early alarm clocks)
+1. going to sleep and having meals at different times each day
+1. getting too hot or cold during sleeping - not adjusting your socks, pyjamas, covers and room temperature
+1. allowing noise and light when you go to bed
+1. receiving too much artificial light after the sunset
+1. receiving too little sunlight during the day, especially right after waking up
+1. stressing your mind and body in the evening, instead of the morning
+1. napping and consuming caffeine or nicotine
+1. drinking alcohol and lots of liquids 4 hours before sleep
+1. not having a glass of water right after waking up
+1. not having a nutrient rich, low carbohydrate diet
+1. using your bed for anything other than sex or sleep
+
+The first four mistakes are the direct physical reasons of a bad sleep.
+But they are non-negotiable items to ensure about your bed time.
+
+The 5th, 6th, 7th and 8th mistakes are which you must also start understanding.
+Either you plan your day time to avoid them or you will wake up groggy, no matter the duration you were asleep.
+
+The last four mistakes are arguably non-obvious ones, but avoiding them is proven to improve your sleep.
+
+---
+
 # Revision 2 (2016-09-17)
 
 During the whole day (between waking up and getting to sleep):
