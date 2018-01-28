@@ -17,9 +17,9 @@ The goal of sleep hygiene is to avoid mistakes of not acting in accordance with 
 In the order of importance:
 
 1. not setting aside 7-9 hours just for sleep (with late stimulating activities and early alarm clocks)
-1. going to sleep and having meals at different times each day
+1. allowing noise and light during your sleep
 1. getting too hot or cold during sleeping - not adjusting your socks, pyjamas, covers and room temperature
-1. allowing noise and light when you go to bed
+1. going to sleep and having meals at different times each day
 1. receiving too much artificial light after the sunset
 1. receiving too little sunlight during the day, especially right after waking up
 1. stressing your mind and body in the evening, instead of the morning
