@@ -14,7 +14,7 @@ Then you can read the [Sleep Smarter](https://www.amazon.com/Sleep-Smarter-Essen
 * ... for more - [search Youtube with "google talks sleep"](https://www.youtube.com/results?search_query=google+talks+sleep)
 
 The goal of sleep hygiene is to avoid mistakes of not acting in accordance with your biological circadian rhythm.
-In the order of importance:
+In the order of decreasing importance:
 
 1. not setting aside 7-9 hours just for sleep (with late stimulating activities and early alarm clocks)
 1. allowing noise and light during your sleep
