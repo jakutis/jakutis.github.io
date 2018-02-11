@@ -14,7 +14,7 @@ There is a [Goldman Sachs recommended reading list](http://www.stat.unc.edu/facu
 - then study The Elements of Investing, Irrational Exuberance, Misbehaving, A Random Walk Down Wallstreet and The Bogleheads' Guide to Investing to understand academic investors
 - then study The Education of a Value Investor, The Essays of Warren Buffett, Poor Charlie's Almanack and Business Adventures to understand the management of Berkshire Hathaway
 - then read Market Wizards, Principles, Street Smarts and No Bull to understand hedge fund managers
-- then read The Most Important Thing, Against the Gods, The Little Book of Valuation, Good Stocks Cheap, Common Stocks and Uncommon Profits and Other Writings, Security Analysis to understand stocks
+- then read The Most Important Thing, Against the Gods, The Little Book of Valuation, Common Stocks and Common Sense, Good Stocks Cheap, Common Stocks and Uncommon Profits and Other Writings, Security Analysis to understand stocks
 - then do it to enjoy it
 
 ## Search tools
@@ -114,6 +114,9 @@ There is a [Goldman Sachs recommended reading list](http://www.stat.unc.edu/facu
 - [The Most Important Thing by Howard Marks](https://www.goodreads.com/book/show/10454418-the-most-important-thing)
   - 2011
   - 4.32/4084
+- [Common Stocks and Common Sense by Edgar Wachenheim](https://www.goodreads.com/book/show/27920074-common-stocks-and-common-sense)
+  - 2016
+  - 4.19/108
 - [Common Stocks and Uncommon Profits and Other Writings by Philip A. Fisher](https://www.goodreads.com/book/show/25574.Common_Stocks_and_Uncommon_Profits_and_Other_Writings)
   - 1957
   - 4.1/6718
