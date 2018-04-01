@@ -8,3 +8,4 @@
 /.bundle
 /Gemfile.lock
 /package-lock.json
+/firebase-debug.log
