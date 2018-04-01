@@ -1,6 +1,6 @@
 permalink: pretty
 markdown: kramdown
-exclude: ["_posts-imported", "_posts-unpublished", "vendor"]
+exclude: ["_posts-imported", "_posts-unpublished", "vendor", "node_modules"]
 highlighter: pygments
 plugins: [jekyll-paginate]
 paginate: 8
