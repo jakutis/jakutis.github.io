@@ -2,7 +2,7 @@ permalink: pretty
 markdown: kramdown
 exclude: ["_posts-imported", "_posts-unpublished", "vendor"]
 highlighter: pygments
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 8
 safe: false
 incremental: true
