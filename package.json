@@ -9,7 +9,8 @@
     "compile-css": "VERSION=\"$(git rev-parse --short HEAD)\";cd css && (cat pygments-solarized.css custom.css | cleancss > style-$VERSION.css) && (cat cgit.css pygments-solarized.css | cleancss > style-cgit-$VERSION.css)",
     "postinstall": "bundle install --path vendor/bundle && bower install && npm run compile-css && rm -rf _site && jekyll build",
     "dev": "jekyll serve",
-    "deploy": "npm install && cd _site && 7za a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on ../_site.7z . && cd .. && scp _site.7z jakut.is: && rm _site.7z && ssh jakut.is \"rm -r /home/jakutis/.local/share/dotfiles/blog-generated && 7za x _site.7z -o/home/jakutis/.local/share/dotfiles/blog-generated && rm _site.7z && echo deployed\""
+    "deploy-firebase": "rm -rf node_modules package-lock.json && npm install && firebase deploy",
+    "deploy": "rm -rf node_modules package-lock.json && npm install && cd _site && 7za a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on ../_site.7z . && cd .. && scp _site.7z jakut.is: && rm _site.7z && ssh jakut.is \"rm -r /home/jakutis/.local/share/dotfiles/blog-generated && 7za x _site.7z -o/home/jakutis/.local/share/dotfiles/blog-generated && rm _site.7z && echo deployed\""
   },
   "repository": {
     "type": "git",
