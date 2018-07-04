@@ -28,6 +28,10 @@ There is a [Goldman Sachs recommended reading list](http://www.stat.unc.edu/facu
 - [Investing category on Amazon](https://www.amazon.com/Best-Sellers-Books-Investing/zgbs/books/2665/)
 - [Investing shelf on Goodreads](https://www.goodreads.com/genres/investing)
 
+## Lists
+
+- [J.P. Morgan Reading List](https://am.jpmorgan.com/private-bank/public/gl/en/reading-list)
+
 ## Courses
 
 - [CORE Econ](http://www.core-econ.org/)
