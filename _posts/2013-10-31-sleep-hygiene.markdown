@@ -109,7 +109,7 @@ Rules, by priority:
 
 ## Exercising
 
-Morning exercise has positive effect - it will make you fall sleep asleep faster and make the sleep deeper.
+Morning exercise has positive effect - it will make you fall asleep faster and make the sleep deeper.
 Intense exercise late in the day will have the opposite effect.
 However, a relaxing exercise late in the day can have positive effect by amplifying the homeostatic sleep drive.
 It is possible to have relaxing body building, [sex](https://www.supermemo.com/en/articles/sleep#Sex), calisthenics, yoga, stretching, etc.
