@@ -87,7 +87,7 @@ Rules, by priority:
 
 * Get into bed exactly whenever you feel sleepy (when you are sure you will fall asleep within 20 minutes) - it means you must never fight sleepiness, you sometimes will wait well above your expected time - do not try to fall asleep every day at the same time or set any other forced time
 * Stick to a constant 24-hour-period plan, which includes the timing of work, play, other activities and the remaining zeitgebers.
-* Be sure nothing, except your body, influences you while you sleep - that means that no zeitgebers must occur, until your own body wakes you up - for example never using an alarm clock, always isolating from noise and light (if needed, even using unintrusive ear plugs or eye masks), always sleeping alone, etc.
+* Be sure nothing, except your body, influences you while you sleep - that means that no zeitgebers must occur, until your own body wakes you up - for example never using an alarm clock, always isolating from noise and light (if needed, even using unintrusive ear plugs or eye masks), always sleeping alone (except when the partner acts more like a zeitgeber than an alarm clock), etc.
 
 ## Reducing stress
 
