@@ -37,7 +37,7 @@ Other examples of zeitgebers can be: [diet](https://www.supermemo.com/en/article
 
 __Homeostatic__ component is stronger the longer you stay awake, the [more](https://www.supermemo.com/en/articles/sleep#How_learning_affects_sleep.3F) [you](https://www.supermemo.com/en/articles/sleep#Learning_overload) [learn](https://www.supermemo.com/en/articles/sleep#Learning), think and do intellectual work.
 It is weaker the more [caffeine](https://www.supermemo.com/en/articles/sleep#Caffeine), stressful physical or mental activities you have.
-[Alcohol](https://www.supermemo.com/en/articles/sleep#Alcohol) and [marijuana](https://www.supermemo.com/en/articles/sleep#Cannabis) makes this component stronger, but take it very sparingly due to damage to health and sleep depth.
+[Alcohol](https://www.supermemo.com/en/articles/sleep#Alcohol) and [marijuana](https://www.supermemo.com/en/articles/sleep#Cannabis) makes this component stronger, but take them sparingly due to damage to health and sleep depth.
 [Melatonin](https://www.supermemo.com/en/articles/sleep#Melatonin) also makes this component stronger and it does little damage, but only if it is prescribed by an expert - used only in extreme cases, timed and dosed well.
 The homeostatic sleepiness is the ability to initiate sleep.
 It is a result of mental effort.
