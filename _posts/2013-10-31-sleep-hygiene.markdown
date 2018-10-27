@@ -101,7 +101,7 @@ Rules, by priority:
 * measure how much you have accomplished during the day
 * work on your overall contentment of the world
 * avoid conflict, be nice and make other people smile
-* destroy relationships with people are sources of stress
+* destroy relationships with people that cause stress
 * build relationships with people that relieve stress
 * re-learn the joy of being in nature
 * exercise
