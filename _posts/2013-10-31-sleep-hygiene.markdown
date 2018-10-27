@@ -3,6 +3,119 @@ layout: post
 title: Sleep hygiene
 date: 2013-10-31 00:00:00.000000000 +00:00
 ---
+# Revision 4 (2018-10-27)
+
+## TLDR
+
+Always go to sleep at the exact point when you are sleepy (when your body, not your plan needs), have a constant 24-hour-period well-timed schedule of activities and ensure nothing disrupts your sleep (not even an alarm clock!).
+Your sleep habit is healthy, if you fall asleep in 5 minutes and wake up suddenly and clear-headed.
+The main function of sleep is for optimizing memories and brain housekeeping, not for brain or body resting.
+You cannot get more sleep and store it for later.
+The primary enemy of sleep is stress, eliminate the source of it's existence, don't try to escape it.
+The other enemies are lack of exercise, lack of learning, alcohol, recreational drugs and sleeping pills.
+Drink coffee only immediately after awakening.
+Quit smoking.
+For the original summary [here](https://www.supermemo.com/en/articles/sleep#Summary_2).
+
+## Modelling sleepiness
+
+There are only two components.
+Sleepiness is maximum, when both of them are in the optimum state - strongest homeostatic and fastest ascending circadian.
+For more details about the physiology of sleep, read [here](https://www.supermemo.com/en/articles/sleep#Physiology_of_sleep).
+
+__Circadian__ component is cyclical.
+Each cycle is approximately a bit longer than 24 hours long.
+The circadian sleepiness is the ability to maintain sleep.
+Clock metaphor is useful in explaining the circadian component.
+In every clock cycle, there one optimum state - a moment when a sleepy potion is released.
+You can detect it by feeling the suddenly increased drowsiness of your body.
+If you have irregular sleep hours or have a lot of stress, you may not feel the sleepy potion.
+To change your cycle length, or to entrain it to exactly 24 hours, you need to expose yourself more intensely to zeitgebers (any external cues that your body can receive) that occur with 24 hour periodicity.
+The strongest zeitgeber is light.
+Reception of light as a zeitgeber is diminished if you are blind or short-sighted.
+Other examples of zeitgebers can be: [diet](https://www.supermemo.com/en/articles/sleep#Diet) and substance intake, relaxing or stressful physical or mental activity, temperature, humidity, sound. 
+
+__Homeostatic__ component is stronger the longer you stay awake, the [more](https://www.supermemo.com/en/articles/sleep#How_learning_affects_sleep.3F) [you](https://www.supermemo.com/en/articles/sleep#Learning_overload) [learn](https://www.supermemo.com/en/articles/sleep#Learning), think and do intellectual work.
+It is weaker the more [caffeine](https://www.supermemo.com/en/articles/sleep#Caffeine), stressful physical or mental activities you have.
+[Alcohol](https://www.supermemo.com/en/articles/sleep#Alcohol) and [marijuana](https://www.supermemo.com/en/articles/sleep#Cannabis) makes this component stronger, but take it very sparingly due to damage to health and sleep depth.
+[Melatonin](https://www.supermemo.com/en/articles/sleep#Melatonin) also makes this component stronger and it does little damage, but only if it is prescribed by an expert - used only in extreme cases, timed and dosed well.
+The homeostatic sleepiness is the ability to initiate sleep.
+It is a result of mental effort.
+Hourglass metaphor is useful in explaining the homeostatic component.
+When you wake up, the hourglass is full.
+With every mental effort, it becomes less and less full.
+The optimum state is when the hourglass is empty.
+Here are examples of ineffective or harmful ways to try to initiate sleep earlier: counting sheep, yoga, aromatherapy, acupuncture, chamomile, massage, magnesium, meditation, warm bath, being in a quiet room, performing rituals, drinking cup of tea, cocoa or milk, eating turkey.
+These are only examples of relaxing activities.
+Other examples of ineffective or harmful methods are: accumulating sleep debt, [consuming sleeping pills](https://www.supermemo.com/en/articles/sleep#Sleeping_pills), avoiding naps and caffeine.
+
+## Timing the nap
+
+If you feel sleepy during your awake time, you should take a nap, but only if it is earlier than the midpoint.
+
+## Timing the work
+
+These optimums apply if we define work as a stressful activity.
+[Optimum for mental work](https://www.supermemo.com/en/articles/sleep#Optimizing_the_timing_of_brainwork) is when homeostatic sleepiness is lowest and circadian is fastest descending - there are two points in one circadian cycle: first is after awakening, second is after mid-point of your awake time.
+Optimum for physical work is after awakening for delayed sleep phase syndrom people and before sleeping for advanced sleep phase syndrom people.
+[Read this section about stress](https://www.supermemo.com/en/articles/sleep#Stress) - how much is too much and how to reduce it. 
+
+## Timing the play
+
+This optimum applies if we define play as a relaxing activity.
+Optimum is in the evening.
+It should be full of effortless physical rest and mental entertainment.
+
+## Timing any activity
+
+First of all, work has to transition into play gradually - meaning the most stressful work has to be done when you begin working.
+Any activity is timed well if it doing it feels fun and will not disrupt the upcoming activities and does not conflict with the 24-hour-period zeitgeber system, or is part of.
+Rest and entertainment is fun after a productive day.
+Mental work is fun when brain is ready.
+Sleep is fun when your body is ready.
+Eating is fun, but the expectation to sleep soon is disrupted, if food is hard to digest or is energizing, because instead of being relaxed, it is lit-up with digesting it and storing the unused energy.
+
+If you want to shift your 24-hour cycle to begin earlier, then intensify the zeitgeber system - have harder [exercise](https://www.supermemo.com/en/articles/sleep#Exercise) and more lights in the morning, harder and more focused work hours, more boring and relaxing play in the evening, etc.
+If you want it to begin later, then remove or even flip the order of the zeitgebers - relaxation in the morning, stress in the evening.
+In conclusion, shifting circadian sleepiness needs temporary changes in actions that affect homeostatic sleepiness.
+
+## Maximizing sleep quality
+
+It is a myth that humans have a tendency to sleep excessively.
+The main idea of a quality sleep is letting it [run free](https://www.supermemo.com/en/articles/sleep#Free_running_sleep).
+Rules, by priority:
+
+* Get into bed exactly whenever you feel sleepy (when you are sure you will fall asleep within 20 minutes) - it means you must never fight sleepiness, you sometimes will wait well above your expected time - do not try to fall asleep every day at the same time or set any other forced time
+* Stick to a constant 24-hour-period plan, which includes the timing of work, play, other activities and the remaining zeitgebers.
+* Be sure nothing, except your body, influences you while you sleep - that means that no zeitgebers must occur, until your own body wakes you up - for example never using an alarm clock, always isolating from noise and light (if needed, even using unintrusive ear plugs or eye masks), always sleeping alone, etc.
+
+## Reducing stress
+
+[Read here](https://www.supermemo.com/en/articles/sleep#Stress) for more details about the rules:
+
+* simplify the day-to-day, slow down, eliminate interruption, refuse more often and delegate
+* do creative work that is useful to other people
+* set and follow goals in all areas - work, family, exercise, etc.
+* have a good process of getting things done or getting rid of things that cannot be done
+* dump tasks from your head to task list, prioritize it and execute by priority
+* measure how much you have accomplished during the day
+* work on your overall contentment of the world
+* avoid conflict, be nice and make other people smile
+* destroy relationships with people are sources of stress
+* build relationships with people that relieve stress
+* re-learn the joy of being in nature
+* exercise
+* have a healthy sleep
+
+## Exercising
+
+Morning exercise has positive effect - it will make you fall sleep asleep faster and make the sleep deeper.
+Intense exercise late in the day will have the opposite effect.
+However, a relaxing exercise late in the day can have positive effect by amplifying the homeostatic sleep drive.
+It is possible to have relaxing body building, [sex](https://www.supermemo.com/en/articles/sleep#Sex), calisthenics, yoga, stretching, etc.
+It must be performed in accordance with your zeitgeber schedule, for example low light, silent, low temperature etc.
+Read more [here](https://www.supermemo.com/en/articles/sleep#Exercise).
+
 # Revision 3 (2018-01-28)
 
 Start with [a video by Matthew Walker - Why We Sleep](https://www.youtube.com/watch?v=aXflBZXAucQ).
