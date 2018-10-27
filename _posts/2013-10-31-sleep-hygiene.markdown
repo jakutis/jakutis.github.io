@@ -14,7 +14,7 @@ You cannot get more sleep and store it for later.
 The primary enemy of sleep is stress, eliminate the source of it's existence, don't try to escape it.
 The other enemies are lack of exercise, lack of learning, alcohol, recreational drugs and sleeping pills.
 Drink coffee only immediately after awakening.
-Quit smoking.
+Don't smoke.
 For the original summary [here](https://www.supermemo.com/en/articles/sleep#Summary_2).
 
 ## Modelling sleepiness
