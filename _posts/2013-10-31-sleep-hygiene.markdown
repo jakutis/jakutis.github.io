@@ -15,7 +15,7 @@ The primary enemy of sleep is stress, eliminate the source of it's existence, do
 The other enemies are lack of exercise, lack of learning, alcohol, recreational drugs and sleeping pills.
 Drink coffee only immediately after awakening.
 Don't smoke.
-For the original summary [here](https://www.supermemo.com/en/articles/sleep#Summary_2).
+Read the original summary [here](https://www.supermemo.com/en/articles/sleep#Summary_2).
 
 ## Modelling sleepiness
 
@@ -24,16 +24,16 @@ Sleepiness is maximum, when both of them are in the optimum state - strongest ho
 For more details about the physiology of sleep, read [here](https://www.supermemo.com/en/articles/sleep#Physiology_of_sleep).
 
 __Circadian__ component is cyclical.
-Each cycle is approximately a bit longer than 24 hours long.
+Each cycle is approximately a bit longer than 24 hours.
 The circadian sleepiness is the ability to maintain sleep.
 Clock metaphor is useful in explaining the circadian component.
-In every clock cycle, there one optimum state - a moment when a sleepy potion is released.
+In every clock cycle, there is only one optimum state - a moment when a sleepy potion is released.
 You can detect it by feeling the suddenly increased drowsiness of your body.
 If you have irregular sleep hours or have a lot of stress, you may not feel the sleepy potion.
 To change your cycle length, or to entrain it to exactly 24 hours, you need to expose yourself more intensely to zeitgebers (any external cues that your body can receive) that occur with 24 hour periodicity.
 The strongest zeitgeber is light.
 Reception of light as a zeitgeber is diminished if you are blind or short-sighted.
-Other examples of zeitgebers can be: [diet](https://www.supermemo.com/en/articles/sleep#Diet) and substance intake, relaxing or stressful physical or mental activity, temperature, humidity, sound. 
+Other examples of zeitgebers can be: [diet](https://www.supermemo.com/en/articles/sleep#Diet) and substance intake, relaxing or stressful physical or mental activity, temperature, humidity, sound, smell, touch. 
 
 __Homeostatic__ component is stronger the longer you stay awake, the [more](https://www.supermemo.com/en/articles/sleep#How_learning_affects_sleep.3F) [you](https://www.supermemo.com/en/articles/sleep#Learning_overload) [learn](https://www.supermemo.com/en/articles/sleep#Learning), think and do intellectual work.
 It is weaker the more [caffeine](https://www.supermemo.com/en/articles/sleep#Caffeine), stressful physical or mental activities you have.
