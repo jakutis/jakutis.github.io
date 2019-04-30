@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-<div class="page-header">
-    <h1>Blog posts</h1>
-</div>
-
 <ul class="app-posts">
 {% for post in paginator.posts %}
 <li><a href="{{ post.url }}" class="label label-info">{{ post.date | date: "%Y-%m-%d"  }}</a><br><a href="{{ post.url }}">{{ post.title }}</a></li>
