@@ -34,5 +34,4 @@ date: 2008-06-29 21:01:56.000000000 +00:00
     alert(scrollBarWidth);
 {% endhighlight %}
 
-Tested on Internet Explorer 5, 5.5; Opera 7.50; Firefox 3.0; Mozilla 1.0; Konqueror 3.5.9; Safari 3.1
-If you find a bug on some other browser, please leave a comment
+Tested on Internet Explorer 5, 5.5; Opera 7.50; Firefox 3.0; Mozilla 1.0; Konqueror 3.5.9; Safari 3.1.
