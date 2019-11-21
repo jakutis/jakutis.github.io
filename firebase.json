@@ -1,7 +1,0 @@
-{
-  "hosting": {
-    "public": "_site",
-    "ignore": [
-    ]
-  }
-}
