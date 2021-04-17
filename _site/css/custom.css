@@ -1,0 +1,62 @@
+.footer {
+  padding: 1em;
+}
+
+ul.app-posts {
+  padding-top: 1em;
+}
+
+ul.app-posts li {
+    list-style: none;
+    padding-bottom: 1em;
+}
+
+.highlight pre {
+    padding-top: 4px;
+    border: 0;
+    overflow-x: auto;
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+.highlighttable pre code {
+    line-height: 14px;
+}
+
+td.linenos, td.code {
+    border: 0
+}
+
+td.linenos {
+    vertical-align: top;
+}
+
+td.linenos {
+    width: 60px;
+}
+
+td, th {
+    border: 1px solid #ccc;
+}
+
+a.navbar-brand img.photo {
+    display: inline;
+    height: 32px;
+    margin-top: -7px;
+    margin-right: 15px;
+}
+
+.linenodiv pre {
+    border: 0;
+    text-align: right;
+    background: transparent;
+}
+
+.linenodiv pre code {
+    word-break: normal;
+}
+
+.highlight, .highlight pre {
+    background: transparent;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Getting full stack traces in asynchronous JavaScript code - Vytautas Jakutis</title>
+        
+        
+        <meta name="author" content="Vytautas Jakutis">
+        <link rel="stylesheet" href="/css/style-70a57252.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+    </head>
+    <body style="padding-top: 50px;" >
+        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+            <div class="container-fluid vcard">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- .navbar-header -->
+                <div class="collapse navbar-collapse" id="#navigation">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a rel="me" href="https://jakut.is">Personal web log of Vytautas Jakutis</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a rel="me" href="https://github.com/jakutis">GitHub</a></li>
+                    </ul>
+                </div>
+            </div><!-- .container-fluid -->
+        </nav>
+
+        <div class="container"><div class="page-header">
+    <h1><a href="/2014/08/21/async-stack-traces/">Getting full stack traces in asynchronous JavaScript code</a></h1>
+    <p><a href="/2014/08/21/async-stack-traces/" class="label label-info">2014-08-21</a></p>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <p>If your codebase uses the two methods <code>.setImmediate</code> and <code>.nextTick</code> from the library <a href="https://www.npmjs.org/package/async">async</a>,
+then after doing the following monkey-patching you can call the function <code>global.printStack()</code> to get the full stack trace.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+</pre></td><td class="code"><pre><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">async</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span> <span class="o">=</span> <span class="p">[];</span>
+
+<span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">a</span><span class="p">.</span><span class="nx">setImmediate</span><span class="p">;</span>
+<span class="nx">a</span><span class="p">.</span><span class="nx">setImmediate</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">fn</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">stack</span> <span class="o">=</span> <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nx">slice</span><span class="p">();</span>
+    <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
+    <span class="nx">s</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span> <span class="o">=</span> <span class="nx">stack</span><span class="p">;</span>
+        <span class="nx">fn</span><span class="p">();</span>
+    <span class="p">});</span>
+<span class="p">};</span>
+
+<span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="nx">a</span><span class="p">.</span><span class="nx">nextTick</span><span class="p">;</span>
+<span class="nx">a</span><span class="p">.</span><span class="nx">nextTick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">fn</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">stack</span> <span class="o">=</span> <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nx">slice</span><span class="p">();</span>
+    <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
+    <span class="nx">n</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span> <span class="o">=</span> <span class="nx">stack</span><span class="p">;</span>
+        <span class="nx">fn</span><span class="p">();</span>
+    <span class="p">});</span>
+<span class="p">};</span>
+
+<span class="nb">global</span><span class="p">.</span><span class="nx">printStack</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">stack</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">stack</span><span class="p">);</span>
+    <span class="p">});</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
+<span class="p">};</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>This hack is in the earliest stage - it needs development to avoid using <code>global</code> and also parsing and joining of the stacks to remove the repeated lines.</p>
+
+<p>By the way, it is fun to know <a href="http://stackoverflow.com/a/20296580">the difference between <code>.setImmediate</code> and <code>.nextTick</code></a>.</p>
+
+  </div>
+</div>
+</div>
+    </body>
+</html>

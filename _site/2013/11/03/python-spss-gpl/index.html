@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Taking control of charts in SPSS - Vytautas Jakutis</title>
+        
+        
+        <meta name="author" content="Vytautas Jakutis">
+        <link rel="stylesheet" href="/css/style-70a57252.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+    </head>
+    <body style="padding-top: 50px;" >
+        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+            <div class="container-fluid vcard">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- .navbar-header -->
+                <div class="collapse navbar-collapse" id="#navigation">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a rel="me" href="https://jakut.is">Personal web log of Vytautas Jakutis</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a rel="me" href="https://github.com/jakutis">GitHub</a></li>
+                    </ul>
+                </div>
+            </div><!-- .container-fluid -->
+        </nav>
+
+        <div class="container"><div class="page-header">
+    <h1><a href="/2013/11/03/python-spss-gpl/">Taking control of charts in SPSS</a></h1>
+    <p><a href="/2013/11/03/python-spss-gpl/" class="label label-info">2013-11-03</a></p>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <p>Below is an example script that draws simple bar charts.
+It was the only acceptable way for me to programmatically generate charts in SPSS.
+There is something to note here - this solution needs three distinct scripting languages:</p>
+
+<ol>
+  <li>The script is written in <a href="http://python.org">Python</a> - which is integrated in SPSS 22. For older versions you need a <a href="https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We70df3195ec8_4f95_9773_42e448fa9029/page/Downloads%20for%20IBM%C2%AE%20SPSS%C2%AE%20Statistics">Python plugin</a>.</li>
+  <li>The code in <code>SpssClient.RunSyntax</code> call is in <a href="http://pic.dhe.ibm.com/infocenter/spssstat/v20r0m0/index.jsp?topic=%2Fcom.ibm.spss.statistics.help%2Fsyn_refintro_overview.htm">SPSS Command Syntax</a>.</li>
+  <li>The code between <code>BEGIN GPL</code> and <code>END GPL</code> is in <a href="http://pic.dhe.ibm.com/infocenter/spssstat/v20r0m0/index.jsp?topic=%2Fcom.ibm.spss.statistics.help%2Fgpl_intro_basics.htm">Graphics Production Language (GPL)</a>.</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+</pre></td><td class="code"><pre><span class="kn">import</span> <span class="nn">SpssClient</span>
+<span class="kn">import</span> <span class="nn">string</span>
+<span class="kn">import</span> <span class="nn">xml.etree.ElementTree</span> <span class="k">as</span> <span class="n">ET</span>
+
+<span class="n">SpssClient</span><span class="p">.</span><span class="n">StartClient</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Started."</span><span class="p">)</span>
+
+<span class="n">SpssClient</span><span class="p">.</span><span class="n">RunSyntax</span><span class="p">(</span><span class="sa">r</span><span class="s">"""
+GET FILE="D:\mydata.sav".
+DATASET NAME mydata.
+"""</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">draw_chart_bars</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">column</span><span class="p">,</span> <span class="n">dataset</span><span class="p">):</span>
+    <span class="n">SpssClient</span><span class="p">.</span><span class="n">RunSyntax</span><span class="p">(</span><span class="n">string</span><span class="p">.</span><span class="n">Template</span><span class="p">(</span><span class="sa">r</span><span class="s">"""
+    GGRAPH
+        /GRAPHDATASET NAME="${id}" DATASET=${dataset} VARIABLES=${column} REPORTMISSING=YES
+        /GRAPHSPEC SOURCE=INLINE.
+    BEGIN GPL
+        SOURCE: s=userSource(id("${id}"))
+        DATA: d=col(source(s), name("${column}"), unit.category())
+        GUIDE: axis(dim(2), gridlines())
+        ELEMENT: interval(position(summary.count(d)))
+    END GPL.
+    """</span><span class="p">).</span><span class="n">substitute</span><span class="p">(</span><span class="nb">locals</span><span class="p">()))</span>
+
+<span class="k">def</span> <span class="nf">export_chart</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
+    <span class="n">OutputDoc</span> <span class="o">=</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">GetDesignatedOutputDoc</span><span class="p">()</span>
+    <span class="n">OutputItems</span> <span class="o">=</span> <span class="n">OutputDoc</span><span class="p">.</span><span class="n">GetOutputItems</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">OutputItems</span><span class="p">.</span><span class="n">Size</span><span class="p">()):</span>
+        <span class="n">OutputItem</span> <span class="o">=</span> <span class="n">OutputItems</span><span class="p">.</span><span class="n">GetItemAt</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">OutputItem</span><span class="p">.</span><span class="n">GetType</span><span class="p">()</span> <span class="o">==</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">OutputItemType</span><span class="p">.</span><span class="n">CHART</span><span class="p">:</span>
+            <span class="n">ChartItem</span> <span class="o">=</span> <span class="n">OutputItem</span><span class="p">.</span><span class="n">GetSpecificType</span><span class="p">()</span>
+            <span class="n">root</span> <span class="o">=</span> <span class="n">ET</span><span class="p">.</span><span class="n">fromstring</span><span class="p">(</span><span class="n">OutputItem</span><span class="p">.</span><span class="n">GetXML</span><span class="p">())</span>
+            <span class="n">source</span> <span class="o">=</span> <span class="n">root</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">".//*[@id='d']"</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">id</span> <span class="o">==</span> <span class="n">source</span><span class="p">.</span><span class="n">attrib</span><span class="p">[</span><span class="s">'source'</span><span class="p">]:</span>
+                <span class="n">OutputItem</span><span class="p">.</span><span class="n">ExportToImage</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">ChartExportFormat</span><span class="p">.</span><span class="n">png</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="p">[</span><span class="s">"color"</span><span class="p">,</span> <span class="s">"brand"</span><span class="p">]:</span>
+    <span class="n">draw_chart_bars</span><span class="p">(</span><span class="n">column</span> <span class="o">=</span> <span class="n">column</span><span class="p">,</span> <span class="n">dataset</span> <span class="o">=</span> <span class="s">"mydata"</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="s">"mychart"</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
+    <span class="n">export_chart</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s">"D:/"</span> <span class="o">+</span> <span class="n">column</span> <span class="o">+</span> <span class="s">".png"</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="s">"mychart"</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Done: "</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
+
+<span class="n">SpssClient</span><span class="p">.</span><span class="n">StopClient</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Finished."</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>P.S. Yes, I am aware of a performance bug in <code>export_chart</code> function where it parses the XMLs of each <code>OutputItem</code>.</p>
+
+  </div>
+</div>
+</div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>sysadmin advice: do not use Molex to 2x SATA power connector adapter - Vytautas Jakutis</title>
+        
+        
+        <meta name="author" content="Vytautas Jakutis">
+        <link rel="stylesheet" href="/css/style-70a57252.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+    </head>
+    <body style="padding-top: 50px;" >
+        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+            <div class="container-fluid vcard">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- .navbar-header -->
+                <div class="collapse navbar-collapse" id="#navigation">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a rel="me" href="https://jakut.is">Personal web log of Vytautas Jakutis</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a rel="me" href="https://github.com/jakutis">GitHub</a></li>
+                    </ul>
+                </div>
+            </div><!-- .container-fluid -->
+        </nav>
+
+        <div class="container"><div class="page-header">
+    <h1><a href="/2012/01/20/sysadmin-advice-do-not-use-molex-to-2x-sata-power-connector-adapter/">sysadmin advice: do not use Molex to 2x SATA power connector adapter</a></h1>
+    <p><a href="/2012/01/20/sysadmin-advice-do-not-use-molex-to-2x-sata-power-connector-adapter/" class="label label-info">2012-01-20</a></p>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <p>Instead, use <a href="http://www.amazon.com/SATA-Power-Cable-4-pin-15-pin/dp/B001M68KFS/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1326727805&amp;sr=1-4">Molex to 1x SATA power connector adapter</a>, or better - get a power supply unit (PSU) with enough SATA power cables.</p>
+
+<p>I learned this lesson, when I switched to a decent PSU.</p>
+
+<p>My server contains two HDDs in a RAID1 array. Before the switch I had them connected to the same Molex through the 2x adapter. One day a HDD was thrown away from the array as faulty. I had to replace it with a new one and resync the array. This operation causes the HDDs to become very busy, while also having them to perform the usual tasks. But the new HDD was also thrown away from the array!</p>
+
+<p>I figured I should try a better PSU and that was it! The RAID1 array synced successfully. I have no problems with it for almost a week. The difference between the setups was that with the new PSU I no longer had to use the <a href="http://www.amazon.com/Syba-SY-CAB40007-Molex-Power-Inches/dp/B0027AGK3M/ref=sr_1_5?s=electronics&amp;ie=UTF8&amp;qid=1326727805&amp;sr=1-5">Molex to 2x SATA power connector adapter</a>.</p>
+
+<p>The hardware:</p>
+<ul>
+  <li>first disk: Samsung HD204UI (5400 rpm)</li>
+  <li>second disk (replacement): Seagate ST2000DL003 (5900 rpm)</li>
+  <li>faulty disk (replaced): Hitachi HDS5C3020ALA632 (5400 rpm)</li>
+  <li>the new PSU (replacement): Modecom ZAS-FEEL1-SW-520 (520W)</li>
+  <li>the old PSU (replaced): Foxconn ISO450PPS (350W)</li>
+</ul>
+
+<p>P.S. it turns out the faulty disk is actually not faulty, since it is working perfectly in other machine.</p>
+
+  </div>
+</div>
+</div>
+    </body>
+</html>

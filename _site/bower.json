@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "private": true,
+  "authors": [
+    "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is/)"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jakutis/blog#readme",
+  "ignore": [
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

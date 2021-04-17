@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>JavaScript packages - Vytautas Jakutis</title>
+        
+        
+        <meta name="author" content="Vytautas Jakutis">
+        <link rel="stylesheet" href="/css/style-70a57252.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+    </head>
+    <body style="padding-top: 50px;" >
+        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+            <div class="container-fluid vcard">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- .navbar-header -->
+                <div class="collapse navbar-collapse" id="#navigation">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a rel="me" href="https://jakut.is">Personal web log of Vytautas Jakutis</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a rel="me" href="https://github.com/jakutis">GitHub</a></li>
+                    </ul>
+                </div>
+            </div><!-- .container-fluid -->
+        </nav>
+
+        <div class="container"><div class="page-header">
+    <h1><a href="/2013/02/17/javascript-packages/">JavaScript packages</a></h1>
+    <p><a href="/2013/02/17/javascript-packages/" class="label label-info">2013-02-17</a></p>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <style>
+table {
+    white-space: nowrap;
+}
+</style>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Since the creation of <a href="https://github.com/sstephenson/stitch/commit/a734eceb99f431b37d2693e1fe64195f76e159ec">Stitch by Sam Stephenson on 17 September 2010</a> and <a href="https://github.com/substack/node-browserify/commit/b0363ae3d5749b3f7e722b21c65484fdf634acf3">Browserify by James Halliday on 22 September 2010</a> (<a href="http://substack.net/posts/24ab8c/browserify-browser-side-require-for-your-node-js">announced in 2011</a>),
+a whole landscape of various <a href="http://www.commonjs.org/">CommonJS</a> package managers has been built up.
+Articles like the <a href="http://dailyjs.com/2013/02/04/stack/">Meet the New Stack, Same as the Old Stack</a> and <a href="http://dailyjs.com/2013/01/28/components/">Confused About Components</a> have been written.
+However, the relevant new options need to be summarized.
+This article should help one to decide whether there is an upgrade from Browserify.</p>
+
+<p>Specifically, we will be comparing single script generators that use CommonJS module system, not loaders like <a href="http://requirejs.org/">Require.js</a>, <a href="https://github.com/jrburke/almond">almond</a>, <a href="https://github.com/anodynos/uRequire">uRequire</a> or <a href="https://github.com/jrburke/r.js">r.js</a>.</p>
+
+<h2 id="comparison-table">Comparison table</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/sstephenson/stitch">Stitch</a></td>
+      <td><a href="http://ender.jit.su">Ender</a></td>
+      <td><a href="http://twitter.github.com/bower/">Bower</a></td>
+      <td><a href="http://browserify.org/">Browserify</a></td>
+      <td><a href="http://component.io/">Component</a></td>
+      <td><a href="https://github.com/azer/onejs">OneJS</a></td>
+      <td><a href="http://gruntjs.com/">Grunt</a></td>
+      <td><a href="http://jamjs.org/">Jam</a></td>
+    </tr>
+    <tr>
+      <td>github</td>
+      <td><a href="https://github.com/sstephenson/stitch">754, 66</a></td>
+      <td><a href="https://github.com/ender-js/Ender">103, 9</a></td>
+      <td><a href="https://github.com/twitter/bower">4240, 283</a></td>
+      <td><a href="https://github.com/substack/node-browserify">1566, 144</a></td>
+      <td><a href="https://github.com/component/component">1101, 58</a></td>
+      <td><a href="https://github.com/azer/onejs">325, 12</a></td>
+      <td><a href="https://github.com/gruntjs/grunt">5088, 491</a></td>
+      <td><a href="https://github.com/caolan/jam">1064, 66</a></td>
+    </tr>
+    <tr>
+      <td>npmjs</td>
+      <td><a href="https://npmjs.org/package/stitch">5, 115, 555</a></td>
+      <td><a href="https://npmjs.org/package/ender">15, 129, 740</a></td>
+      <td><a href="https://npmjs.org/package/bower">1098, 6236, -</a></td>
+      <td><a href="https://npmjs.org/package/browserify">143, 3997, 17493</a></td>
+      <td><a href="https://npmjs.org/package/component">156, 724, 2647</a></td>
+      <td><a href="https://npmjs.org/package/one">1, 178, 534</a></td>
+      <td><a href="https://npmjs.org/package/grunt">302, 10790, 41316</a></td>
+      <td><a href="https://npmjs.org/package/jamjs">9, 409, -</a></td>
+    </tr>
+    <tr>
+      <td>license</td>
+      <td>MIT</td>
+      <td>MIT</td>
+      <td>MIT</td>
+      <td>MIT and 3-clause BSD</td>
+      <td>MIT</td>
+      <td>WTFPL</td>
+      <td>MIT</td>
+      <td>MIT</td>
+    </tr>
+    <tr>
+      <td>first commit</td>
+      <td>2010-09-17</td>
+      <td>2011-04-04</td>
+      <td>2012-09-06</td>
+      <td>2010-09-22</td>
+      <td>2012-08-01</td>
+      <td>2012-10-01</td>
+      <td>2011-09-21</td>
+      <td>2012-05-18</td>
+    </tr>
+    <tr>
+      <td>last commit</td>
+      <td>2012-11-02</td>
+      <td>2013-02-16</td>
+      <td>2013-02-14</td>
+      <td>2013-02-16</td>
+      <td>2013-02-15</td>
+      <td>2013-02-08</td>
+      <td>2013-02-13</td>
+      <td>2013-01-07</td>
+    </tr>
+    <tr>
+      <td>supports external dependencies</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>takes external dependencies list from</td>
+      <td>N/A</td>
+      <td>arbitrary (default is ender.js)</td>
+      <td>arbitrary (default is component.json)</td>
+      <td>package.json</td>
+      <td>component.json</td>
+      <td>TODO</td>
+      <td>depends on the plugin</td>
+      <td>package.json (jam namespace)</td>
+    </tr>
+    <tr>
+      <td>name registry</td>
+      <td>N/A</td>
+      <td><a href="https://npmjs.org">npmjs.org</a></td>
+      <td><a href="http://sindresorhus.com/bower-components/">sindresorhus.com</a></td>
+      <td><a href="https://npmjs.org">npmjs.org</a></td>
+      <td><a href="https://github.com">github.com</a></td>
+      <td>TODO</td>
+      <td>depends on the plugin</td>
+      <td><a href="http://jamjs.org/">jamjs.org</a></td>
+    </tr>
+    <tr>
+      <td>copies from git URL</td>
+      <td>N/A</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>no</td>
+      <td>TODO</td>
+      <td>yes, if using a plugin (Bower, etc.)</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>copies from registry</td>
+      <td>N/A</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>TODO</td>
+      <td>yes, if using a plugin (Bower, etc.)</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>copies from local directory</td>
+      <td>N/A</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>no</td>
+      <td>TODO</td>
+      <td>yes, if using a plugin (Bower, etc.)</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>copies from archive URL</td>
+      <td>N/A</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>no</td>
+      <td>TODO</td>
+      <td>yes, if using a plugin (Bower, etc.)</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>copies to</td>
+      <td>N/A</td>
+      <td>arbitrary (default is node_modules)</td>
+      <td>arbitrary (default is components)</td>
+      <td>node_modules</td>
+      <td>components</td>
+      <td>TODO</td>
+      <td>yes, if using a plugin (Bower, etc.)</td>
+      <td>jam</td>
+    </tr>
+    <tr>
+      <td>generates a single script</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>no, needs a loader or a generator</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>TODO</td>
+      <td>yes, if using a plugin (simple concatenation, Component, Jam, Browserify, etc.)</td>
+      <td>no (generates an Asynchronous Module Definition files for using with loaders)</td>
+    </tr>
+    <tr>
+      <td>generates a single stylesheet</td>
+      <td>no</td>
+      <td>no</td>
+      <td>no</td>
+      <td>no</td>
+      <td>yes</td>
+      <td>TODO</td>
+      <td>yes, if using Component plugin</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>exposes <code>require</code> to global scope</td>
+      <td>yes</td>
+      <td>yes</td>
+      <td>no</td>
+      <td>optionally (default is no)</td>
+      <td>yes</td>
+      <td>TODO</td>
+      <td>depends on the plugin</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>entry script type</td>
+      <td>plain browser script</td>
+      <td>plain browser script</td>
+      <td>depends on a loader or a generator</td>
+      <td>arbitrary</td>
+      <td>local component</td>
+      <td>TODO</td>
+      <td>depends on the plugin</td>
+      <td>plain browser script</td>
+    </tr>
+    <tr>
+      <td>defects</td>
+      <td>none</td>
+      <td>none</td>
+      <td>none</td>
+      <td>none</td>
+      <td>home page is down,<br /><code>component info component/tip</code> is broken</td>
+      <td><code>npm install -g one</code> is broken</td>
+      <td>none</td>
+      <td>none</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="omissions">Omissions</h2>
+
+<p>There is also these monolithic <a href="http://brunch.io/">brunch.io</a> by Brunch team, <a href="https://github.com/spine/hem">hem</a> by Spine developers and <a href="https://github.com/volojs/volo">volo</a> by Dojo Foundation.
+They were excluded from this analysis, mainly because they try to do too many things and in a monolithic fashion.</p>
+
+<p>Brunch has a word ‘lightweight’ in its tagline, and it’s really just the opposite - project initialization created 1365 files using 15 MB, it took 1.8s to build the empty project and the initialized source code was in CoffeeScript. Liars.</p>
+
+<p>Hem failed on <code>npm install -g hem</code>; has a broken link <a href="https://npmjs.org/package/hem">in their page at npm registry</a>; uses ‘awesome’ in its documentation; was originally made to complement <a href="http://spinejs.com/">the Spine framework</a>; uses a file called <code>slug.js</code> for configurations; written in and endorsing CoffeeScript. ewww.</p>
+
+<p>Volo is compatible solely with Asynchronous Module Definition scripts.
+It should not have been even mentioned (see the last sentence of introduction).</p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>It is best to upgrade from Browserify to <a href="http://yeoman.io">the Yeoman workflow</a>.
+Use Yo for scaffolding, Grunt for integration, Bower for package management and <a href="https://github.com/anthonyshort/grunt-component-build">grunt-component-build</a> (or <a href="https://github.com/avos/grunt-commonjs">grunt-commonjs</a> with <a href="https://github.com/chrisabrams/commonjs">commonjs loader</a>) for concatenation.</p>
+
+<p>Browserify still is most simple if just basic package management with concatenation is needed and the NodeJS polyfilling bloat is insignificant.</p>
+
+<h1 id="bonus">Bonus</h1>
+
+<p>When creating a package to be used as an external dependency, use <a href="https://github.com/umdjs/umd">these Universal Module Definition templates</a> to make your package usable in every type of environment - AMD, CommonJS require, simple global, etc.</p>
+
+<p>Another category of weapons is being developed - scaffolding generators.
+Besides <a href="http://gruntjs.com/project-scaffolding">grunt-init</a>, there is a new tool in development - <a href="http://yeoman.io">Yo</a>.
+Have a look at the skeletons its backend is offering - <a href="https://github.com/yeoman/generator">the Yeoman generator system</a>.</p>
+
+<p>Lastly, here is <a href="https://jakut.is/git/GRUNTINITCOMPONENT/about/">my “component” skeleton for grunt-init</a>.</p>
+
+  </div>
+</div>
+</div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-css": "VERSION=\"$(git rev-parse --short HEAD)\";cd css && (cat pygments-solarized.css custom.css | cleancss > style-$VERSION.css) && (cat cgit.css pygments-solarized.css | cleancss > style-cgit-$VERSION.css)",
+    "postinstall": "bundle install --path vendor/bundle && bower install && npm run compile-css && rm -rf _site && bundle exec jekyll build",
+    "dev": "jekyll serve",
+    "deploy": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakutis/blog.git"
+  },
+  "author": "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakutis/blog/issues"
+  },
+  "homepage": "https://github.com/jakutis/blog#readme",
+  "dependencies": {
+    "bower": "^1.8.2",
+    "clean-css": "^3.3.7",
+    "uglify-js": "^2.4.24"
+  }
+}

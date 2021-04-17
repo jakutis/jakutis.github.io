@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Graph Databases - Vytautas Jakutis</title>
+        
+        
+        <meta name="author" content="Vytautas Jakutis">
+        <link rel="stylesheet" href="/css/style-70a57252.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+    </head>
+    <body style="padding-top: 50px;" >
+        <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+            <div class="container-fluid vcard">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- .navbar-header -->
+                <div class="collapse navbar-collapse" id="#navigation">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a rel="me" href="https://jakut.is">Personal web log of Vytautas Jakutis</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a rel="me" href="https://github.com/jakutis">GitHub</a></li>
+                    </ul>
+                </div>
+            </div><!-- .container-fluid -->
+        </nav>
+
+        <div class="container"><div class="page-header">
+    <h1><a href="/2013/05/12/graph-databases/">Graph Databases</a></h1>
+    <p><a href="/2013/05/12/graph-databases/" class="label label-info">2013-05-12</a></p>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <p>The overview below is not in a finished state.</p>
+
+<h2 id="products">Products</h2>
+
+<p>This is a list of databases that meet these requirements:</p>
+
+<ul>
+  <li>at least some development activity during the last 365 days</li>
+  <li>source code is publicly available</li>
+</ul>
+
+<h3 id="oqgraph">OQGraph</h3>
+
+<ul>
+  <li>GPLv2</li>
+  <li>graph-store</li>
+  <li>engine for MariaDB</li>
+  <li>http://openquery.com/products/graph-engine</li>
+</ul>
+
+<h3 id="arangodb">ArangoDB</h3>
+
+<ul>
+  <li>Apache2</li>
+  <li>graph-store, keyvalue-store, document-store</li>
+  <li>network server</li>
+  <li>has ArchLinux package</li>
+</ul>
+
+<h3 id="orientdb">OrientDB</h3>
+
+<ul>
+  <li>Affero GPL 3</li>
+  <li>graph-store, document-store</li>
+  <li>network server</li>
+  <li>infrastructure
+    <ul>
+      <li>https://github.com/eduardoejp/clj-orient</li>
+      <li>https://github.com/DamonOehlman/graphdb-orient</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="rexster">Rexster</h3>
+
+<ul>
+  <li>BSD</li>
+  <li>graph-store</li>
+  <li>network server</li>
+  <li>infrastructure
+    <ul>
+      <li>http://bulbflow.com/overview/</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="neo4j">Neo4j</h3>
+
+<ul>
+  <li>licensing:
+    <ul>
+      <li>community for free (since it is GPL, our product must also be GPL, i.e. opensource, using this)</li>
+      <li>advanced 6000USD anually per instance (NTCL or AGPL, i.e. our product can be closed source, only if it communicates with instance over network)
+        <ul>
+          <li>adds Advanced Monitoring</li>
+        </ul>
+      </li>
+      <li>enterprise 24000USD anually per instance (NTCL or AGPL, i.e. our product can be closed source, only if it communicates with instance over network)
+        <ul>
+          <li>adds Online Backup, High Availability Clustering, and Advanced Monitoring</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>graph-store</li>
+  <li>network server, library for Java</li>
+  <li>has ArchLinux package</li>
+  <li>has Heroku addon</li>
+  <li>most popular graph-store</li>
+  <li>infrastructure
+    <ul>
+      <li>http://clojure-libraries.appspot.com/library/neocons</li>
+      <li>http://clojure-libraries.appspot.com/library/Borneo</li>
+      <li>https://github.com/thingdom/node-neo4j</li>
+      <li>http://bulbflow.com/overview/</li>
+      <li>https://github.com/robinedwards/neomodel</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="titan">Titan</h3>
+
+<ul>
+  <li>Apache2</li>
+  <li>graph-store</li>
+  <li>network server</li>
+  <li>infrastructure
+    <ul>
+      <li>http://titanium.clojurewerkz.org/</li>
+      <li>http://ogre.clojurewerkz.org/</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="jiraph">Jiraph</h3>
+
+<ul>
+  <li>Eclipse</li>
+  <li>graph-store</li>
+  <li>library for Clojure</li>
+  <li>http://jiraph.org/</li>
+</ul>
+
+<h3 id="riak">Riak</h3>
+
+<ul>
+  <li>Apache2</li>
+  <li>document-store</li>
+  <li>network server</li>
+  <li>http://nosql.mypopescu.com/post/1421755349/riak-storing-an-rdf-graph</li>
+</ul>
+
+<h3 id="hypergraphdb">HypergraphDB</h3>
+
+<ul>
+  <li>LGPL</li>
+  <li>directedhypergraph-store</li>
+  <li>network server</li>
+  <li>http://code.google.com/p/hypergraphdb/</li>
+</ul>
+
+<h3 id="infogrid">InfoGrid</h3>
+
+<ul>
+  <li>AGPL</li>
+  <li>graph-store</li>
+  <li>network server</li>
+  <li>http://svn.infogrid.org/infogrid/trunk/</li>
+</ul>
+
+<h2 id="comparisons">Comparisons</h2>
+
+<ul>
+  <li>orientdb vs. neo4j vs. titan: https://news.ycombinator.com/item?id=5493315</li>
+  <li>orientdb vs. neo4j vs. dex vs. infinitegraph: https://github.com/nuvolabase/orientdb/wiki/GraphDB-Comparison</li>
+  <li>xgdbench.pdf</li>
+  <li>Titan is to Neo4j, as Cassandra is to SQLite: https://news.ycombinator.com/item?id=5493330</li>
+  <li>http://java.dzone.com/news/nosql-graph-database-feature</li>
+  <li>http://renzoangles.blogspot.com/p/graph-databases-vs-rdf-databases.html</li>
+  <li>http://nosql.mypopescu.com/post/13771987424/a-survey-of-graph-databases-for-the-java-programmers</li>
+  <li>http://jasperpeilee.wordpress.com/2011/11/25/a-survey-on-graph-databases/</li>
+  <li>http://dbpedias.com/wiki/NoSQL:Survey_of_Distributed_Databases#Graph_Databases_2</li>
+</ul>
+
+<h2 id="ideas">Ideas</h2>
+
+<ul>
+  <li>http://www.meetup.com/graphdb-boston/</li>
+  <li>MongoDB as a staging repository for repositories like Neo4j http://www.meetup.com/graphdb-boston/events/91703472/</li>
+  <li>http://wiki.python.org/moin/PythonGraphApi</li>
+</ul>
+
+<h2 id="more">More</h2>
+
+<ul>
+  <li>http://en.wikipedia.org/wiki/Graph_database</li>
+  <li>https://www.hnsearch.com/search#request/all&amp;q=graphdb&amp;sortby=create_ts+desc&amp;start=0</li>
+  <li>http://totemdb.whu.edu.cn/dasfaa2013/</li>
+  <li>http://www.infoq.com/graphdatabase/</li>
+  <li>https://www.google.lt/search?q=java+graph+database</li>
+  <li>http://stackoverflow.com/questions/1754628/graph-database-in-java-other-than-neo4j</li>
+</ul>
+
+<h2 id="theory">Theory</h2>
+
+<pre><code>TODO
+</code></pre>
+
+  </div>
+</div>
+</div>
+    </body>
+</html>
