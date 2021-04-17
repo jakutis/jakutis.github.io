@@ -1,3 +1,4 @@
+destination: ./docs
 permalink: pretty
 markdown: kramdown
 exclude: ["_posts-imported", "_posts-unpublished", "vendor", "node_modules"]
