@@ -9,7 +9,7 @@
     "compile-css": "VERSION=\"$(git rev-parse --short HEAD)\";cd css && (cat pygments-solarized.css custom.css | cleancss > style-$VERSION.css) && (cat cgit.css pygments-solarized.css | cleancss > style-cgit-$VERSION.css)",
     "postinstall": "bundle install --path vendor/bundle && bower install && npm run compile-css && rm -rf _site && bundle exec jekyll build",
     "dev": "jekyll serve",
-    "deploy": "rm -rf node_modules package-lock.json && npm install && tar cJvf site.tar.xz _site && scp site.tar.xz admin@jakut.is: && rm site.tar.xz && ssh admin@jakut.is \"mv -v site 'site.$(date)' && tar xvf site.tar.xz && rm site.tar.xz && mv -v _site site && sudo bash -c 'cd /root/VARIA/jakut.is && git pull --rebase && ./install'\""
+    "deploy": "rm -rf node_modules package-lock.json && npm install"
   },
   "repository": {
     "type": "git",
