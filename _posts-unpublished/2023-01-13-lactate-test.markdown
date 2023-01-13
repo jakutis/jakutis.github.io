@@ -1,6 +1,6 @@
 # Material requirements
 
-* backpack
+* backpack for everything
 * air monitoring:
     * iPhone
     * powerbank
