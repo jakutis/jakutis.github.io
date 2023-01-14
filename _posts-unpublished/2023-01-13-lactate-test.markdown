@@ -189,6 +189,13 @@ Showed 9.8mmol/l, 110bpm.
 
 TODO computer and paper work
 
+# In the morning
+
+TODO write down Oura sleep data/screenshots.
+Did not have any food/calories.
+Measured weight - 75.9kg.
+Did not drink anything, started hydrating from the drinking bottle before warmup, during warmup and during stages.
+
 # Protocol
 
 TODO
