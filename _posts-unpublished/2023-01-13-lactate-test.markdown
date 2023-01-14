@@ -196,6 +196,13 @@ Did not have any food/calories.
 Measured weight - 75.9kg.
 Did not drink anything, started hydrating from the drinking bottle before warmup, during warmup and during stages.
 
+# At the manege
+
+- connect Awair to USB-C cable with the USB-A end plugged in to non-fast charging port of power bank
+- place the Awair on the ground, 1 meter from the running track
+- place the 4 blank paper sheets on the sides of the track, in the middle of the straights
+- TODO layout of other things
+
 # Protocol
 
 TODO
