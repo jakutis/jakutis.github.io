@@ -180,6 +180,25 @@ stage12  10:57  8.6mmol/l
 post     11:01  9.8mmol/l
 ```
 
+# Stage speeds
+
+```
+warmup1   7.2
+warmup2   7.2
+stage1    7.83
+stage2    8.18
+stage3    8.57
+stage4    9.00
+stage5    9.47
+stage6    10.00
+stage7    10.59
+stage8    11.25
+stage9    12.00
+stage10   12.86
+stage11   13.85
+stage12   15.00
+```
+
 # Last measurement
 
 Done at 11:01:30.
