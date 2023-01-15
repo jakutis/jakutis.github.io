@@ -180,6 +180,8 @@ stage12  10:57  8.6mmol/l
 post     11:01  9.8mmol/l
 ```
 
+Lactate: `1.2,1.3,1.4,1.3,1.5,1.7,2.4,2.4,2.6,3.4,4.8,8.6,9.8`
+
 # Stage speeds
 
 ```
@@ -198,6 +200,8 @@ stage10   12.86
 stage11   13.85
 stage12   15.00
 ```
+
+Stages: `7.83,8.18,8.57,9.00,9.47,10.00,10.59,11.25,12.00,12.86,13.85,15.00`
 
 # Last measurement
 
@@ -225,6 +229,10 @@ Did not drink anything, started hydrating from the drinking bottle before warmup
 # Protocol
 
 TODO
+
+# Things to do differently next time
+
+* Do not squeeze when taking a sample, the blood has to flow freely - "It does not matter if you use the ear lobe or the finger as long as you do a technique that does not involve squeezing the blood out." - https://scientifictriathlon.com/tts330/
 
 # Open questions
 
