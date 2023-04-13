@@ -9,8 +9,8 @@
         
         
         <meta name="author" content="Vytautas Jakutis">
-        <link rel="stylesheet" href="/css/style-70a57252.css">
-        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="stylesheet" href="/css/style-b29f7015.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?b29f7015">
         <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
     </head>
     <body style="padding-top: 50px;" >
@@ -65,28 +65,28 @@
 20
 21
 22
-</pre></td><td class="code"><pre>    <span class="kd">var</span> <span class="nx">div</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">div</span><span class="dl">'</span><span class="p">);</span>
+</pre></td><td class="code"><pre>    <span class="kd">var</span> <span class="nx">div</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">div</span><span class="dl">'</span><span class="p">);</span>
     <span class="nx">div</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">50px</span><span class="dl">'</span><span class="p">;</span>
     <span class="nx">div</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">position</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">absolute</span><span class="dl">'</span><span class="p">;</span>
     <span class="nx">div</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">left</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">-200px</span><span class="dl">'</span><span class="p">;</span>
     <span class="nx">div</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">overflow</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">hidden</span><span class="dl">'</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">div2</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">div</span><span class="dl">'</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">div2</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">div</span><span class="dl">'</span><span class="p">);</span>
     <span class="nx">div2</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">position</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">relative</span><span class="dl">'</span><span class="p">;</span>
     <span class="nx">div2</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">100%</span><span class="dl">'</span><span class="p">;</span>
     <span class="nx">div2</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">height</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">100%</span><span class="dl">'</span><span class="p">;</span>
-    <span class="nx">div</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">div2</span><span class="p">);</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">div</span><span class="p">);</span>
-    <span class="k">if</span><span class="p">(</span><span class="nx">div2</span><span class="p">.</span><span class="nx">offsetWidth</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">div</span><span class="p">.</span><span class="nf">appendChild</span><span class="p">(</span><span class="nx">div2</span><span class="p">);</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nf">appendChild</span><span class="p">(</span><span class="nx">div</span><span class="p">);</span>
+    <span class="nf">if</span><span class="p">(</span><span class="nx">div2</span><span class="p">.</span><span class="nx">offsetWidth</span><span class="p">)</span> <span class="p">{</span>
         <span class="nx">scrollBarWidth</span> <span class="o">=</span> <span class="nx">div2</span><span class="p">.</span><span class="nx">offsetWidth</span><span class="p">;</span>
         <span class="nx">div</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">overflow</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">scroll</span><span class="dl">'</span><span class="p">;</span>
         <span class="nx">scrollBarWidth</span> <span class="o">-=</span> <span class="nx">div2</span><span class="p">.</span><span class="nx">offsetWidth</span><span class="p">;</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">getComputedStyle</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">scrollBarWidth</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">defaultView</span><span class="p">.</span><span class="nx">getComputedStyle</span><span class="p">(</span><span class="nx">div2</span><span class="p">,</span> <span class="kc">null</span><span class="p">).</span><span class="nx">getPropertyValue</span><span class="p">(</span><span class="dl">'</span><span class="s1">width</span><span class="dl">'</span><span class="p">));</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="nf">if</span><span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">getComputedStyle</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">scrollBarWidth</span> <span class="o">=</span> <span class="nf">parseInt</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">defaultView</span><span class="p">.</span><span class="nf">getComputedStyle</span><span class="p">(</span><span class="nx">div2</span><span class="p">,</span> <span class="kc">null</span><span class="p">).</span><span class="nf">getPropertyValue</span><span class="p">(</span><span class="dl">'</span><span class="s1">width</span><span class="dl">'</span><span class="p">));</span>
         <span class="nx">div</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">overflow</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">scroll</span><span class="dl">'</span><span class="p">;</span>
-        <span class="nx">scrollBarWidth</span> <span class="o">-=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">defaultView</span><span class="p">.</span><span class="nx">getComputedStyle</span><span class="p">(</span><span class="nx">div2</span><span class="p">,</span> <span class="kc">null</span><span class="p">).</span><span class="nx">getPropertyValue</span><span class="p">(</span><span class="dl">'</span><span class="s1">width</span><span class="dl">'</span><span class="p">));</span>
+        <span class="nx">scrollBarWidth</span> <span class="o">-=</span> <span class="nf">parseInt</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">defaultView</span><span class="p">.</span><span class="nf">getComputedStyle</span><span class="p">(</span><span class="nx">div2</span><span class="p">,</span> <span class="kc">null</span><span class="p">).</span><span class="nf">getPropertyValue</span><span class="p">(</span><span class="dl">'</span><span class="s1">width</span><span class="dl">'</span><span class="p">));</span>
     <span class="p">}</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">removeChild</span><span class="p">(</span><span class="nx">div</span><span class="p">);</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="nx">scrollBarWidth</span><span class="p">);</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nf">removeChild</span><span class="p">(</span><span class="nx">div</span><span class="p">);</span>
+    <span class="nf">alert</span><span class="p">(</span><span class="nx">scrollBarWidth</span><span class="p">);</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
 <p>Tested on Internet Explorer 5, 5.5; Opera 7.50; Firefox 3.0; Mozilla 1.0; Konqueror 3.5.9; Safari 3.1.</p>

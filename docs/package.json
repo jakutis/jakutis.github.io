@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-css": "VERSION=\"$(git rev-parse --short HEAD)\";cd css && (cat pygments-solarized.css custom.css | cleancss > style-$VERSION.css) && (cat cgit.css pygments-solarized.css | cleancss > style-cgit-$VERSION.css)",
-    "postinstall": "bundle install --path vendor/bundle && bower install && npm run compile-css && rm -rf _site && bundle exec jekyll build",
+    "postinstall": "bundle install --path vendor/bundle && bower install && npm run compile-css && rm -rf docs && bundle exec jekyll build",
     "dev": "jekyll serve",
     "deploy": "rm -rf node_modules package-lock.json && npm install"
   },

@@ -9,8 +9,8 @@
         
         
         <meta name="author" content="Vytautas Jakutis">
-        <link rel="stylesheet" href="/css/style-70a57252.css">
-        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="stylesheet" href="/css/style-b29f7015.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?b29f7015">
         <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
     </head>
     <body style="padding-top: 50px;" >
@@ -96,20 +96,20 @@ There is something to note here - this solution needs three distinct scripting l
 42
 43
 44
-</pre></td><td class="code"><pre><span class="kn">import</span> <span class="nn">SpssClient</span>
-<span class="kn">import</span> <span class="nn">string</span>
-<span class="kn">import</span> <span class="nn">xml.etree.ElementTree</span> <span class="k">as</span> <span class="n">ET</span>
+</pre></td><td class="code"><pre><span class="kn">import</span> <span class="n">SpssClient</span>
+<span class="kn">import</span> <span class="n">string</span>
+<span class="kn">import</span> <span class="n">xml.etree.ElementTree</span> <span class="k">as</span> <span class="n">ET</span>
 
-<span class="n">SpssClient</span><span class="p">.</span><span class="n">StartClient</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s">"Started."</span><span class="p">)</span>
+<span class="n">SpssClient</span><span class="p">.</span><span class="nc">StartClient</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"Started."</span><span class="p">)</span>
 
-<span class="n">SpssClient</span><span class="p">.</span><span class="n">RunSyntax</span><span class="p">(</span><span class="sa">r</span><span class="s">"""
+<span class="n">SpssClient</span><span class="p">.</span><span class="nc">RunSyntax</span><span class="p">(</span><span class="sa">r</span><span class="s">"""
 GET FILE="D:\mydata.sav".
 DATASET NAME mydata.
 """</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">draw_chart_bars</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">column</span><span class="p">,</span> <span class="n">dataset</span><span class="p">):</span>
-    <span class="n">SpssClient</span><span class="p">.</span><span class="n">RunSyntax</span><span class="p">(</span><span class="n">string</span><span class="p">.</span><span class="n">Template</span><span class="p">(</span><span class="sa">r</span><span class="s">"""
+    <span class="n">SpssClient</span><span class="p">.</span><span class="nc">RunSyntax</span><span class="p">(</span><span class="n">string</span><span class="p">.</span><span class="nc">Template</span><span class="p">(</span><span class="sa">r</span><span class="s">"""
     GGRAPH
         /GRAPHDATASET NAME="${id}" DATASET=${dataset} VARIABLES=${column} REPORTMISSING=YES
         /GRAPHSPEC SOURCE=INLINE.
@@ -119,27 +119,27 @@ DATASET NAME mydata.
         GUIDE: axis(dim(2), gridlines())
         ELEMENT: interval(position(summary.count(d)))
     END GPL.
-    """</span><span class="p">).</span><span class="n">substitute</span><span class="p">(</span><span class="nb">locals</span><span class="p">()))</span>
+    """</span><span class="p">).</span><span class="nf">substitute</span><span class="p">(</span><span class="nf">locals</span><span class="p">()))</span>
 
 <span class="k">def</span> <span class="nf">export_chart</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
-    <span class="n">OutputDoc</span> <span class="o">=</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">GetDesignatedOutputDoc</span><span class="p">()</span>
-    <span class="n">OutputItems</span> <span class="o">=</span> <span class="n">OutputDoc</span><span class="p">.</span><span class="n">GetOutputItems</span><span class="p">()</span>
-    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">OutputItems</span><span class="p">.</span><span class="n">Size</span><span class="p">()):</span>
-        <span class="n">OutputItem</span> <span class="o">=</span> <span class="n">OutputItems</span><span class="p">.</span><span class="n">GetItemAt</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">OutputItem</span><span class="p">.</span><span class="n">GetType</span><span class="p">()</span> <span class="o">==</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">OutputItemType</span><span class="p">.</span><span class="n">CHART</span><span class="p">:</span>
-            <span class="n">ChartItem</span> <span class="o">=</span> <span class="n">OutputItem</span><span class="p">.</span><span class="n">GetSpecificType</span><span class="p">()</span>
-            <span class="n">root</span> <span class="o">=</span> <span class="n">ET</span><span class="p">.</span><span class="n">fromstring</span><span class="p">(</span><span class="n">OutputItem</span><span class="p">.</span><span class="n">GetXML</span><span class="p">())</span>
-            <span class="n">source</span> <span class="o">=</span> <span class="n">root</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">".//*[@id='d']"</span><span class="p">)</span>
+    <span class="n">OutputDoc</span> <span class="o">=</span> <span class="n">SpssClient</span><span class="p">.</span><span class="nc">GetDesignatedOutputDoc</span><span class="p">()</span>
+    <span class="n">OutputItems</span> <span class="o">=</span> <span class="n">OutputDoc</span><span class="p">.</span><span class="nc">GetOutputItems</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">OutputItems</span><span class="p">.</span><span class="nc">Size</span><span class="p">()):</span>
+        <span class="n">OutputItem</span> <span class="o">=</span> <span class="n">OutputItems</span><span class="p">.</span><span class="nc">GetItemAt</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">OutputItem</span><span class="p">.</span><span class="nc">GetType</span><span class="p">()</span> <span class="o">==</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">OutputItemType</span><span class="p">.</span><span class="n">CHART</span><span class="p">:</span>
+            <span class="n">ChartItem</span> <span class="o">=</span> <span class="n">OutputItem</span><span class="p">.</span><span class="nc">GetSpecificType</span><span class="p">()</span>
+            <span class="n">root</span> <span class="o">=</span> <span class="n">ET</span><span class="p">.</span><span class="nf">fromstring</span><span class="p">(</span><span class="n">OutputItem</span><span class="p">.</span><span class="nc">GetXML</span><span class="p">())</span>
+            <span class="n">source</span> <span class="o">=</span> <span class="n">root</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span><span class="s">".//*[@id='d']"</span><span class="p">)</span>
             <span class="k">if</span> <span class="nb">id</span> <span class="o">==</span> <span class="n">source</span><span class="p">.</span><span class="n">attrib</span><span class="p">[</span><span class="s">'source'</span><span class="p">]:</span>
-                <span class="n">OutputItem</span><span class="p">.</span><span class="n">ExportToImage</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">ChartExportFormat</span><span class="p">.</span><span class="n">png</span><span class="p">)</span>
+                <span class="n">OutputItem</span><span class="p">.</span><span class="nc">ExportToImage</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">SpssClient</span><span class="p">.</span><span class="n">ChartExportFormat</span><span class="p">.</span><span class="n">png</span><span class="p">)</span>
 
 <span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="p">[</span><span class="s">"color"</span><span class="p">,</span> <span class="s">"brand"</span><span class="p">]:</span>
-    <span class="n">draw_chart_bars</span><span class="p">(</span><span class="n">column</span> <span class="o">=</span> <span class="n">column</span><span class="p">,</span> <span class="n">dataset</span> <span class="o">=</span> <span class="s">"mydata"</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="s">"mychart"</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
-    <span class="n">export_chart</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s">"D:/"</span> <span class="o">+</span> <span class="n">column</span> <span class="o">+</span> <span class="s">".png"</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="s">"mychart"</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">"Done: "</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
+    <span class="nf">draw_chart_bars</span><span class="p">(</span><span class="n">column</span> <span class="o">=</span> <span class="n">column</span><span class="p">,</span> <span class="n">dataset</span> <span class="o">=</span> <span class="s">"mydata"</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="s">"mychart"</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
+    <span class="nf">export_chart</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s">"D:/"</span> <span class="o">+</span> <span class="n">column</span> <span class="o">+</span> <span class="s">".png"</span><span class="p">,</span> <span class="nb">id</span> <span class="o">=</span> <span class="s">"mychart"</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Done: "</span> <span class="o">+</span> <span class="n">column</span><span class="p">)</span>
 
-<span class="n">SpssClient</span><span class="p">.</span><span class="n">StopClient</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s">"Finished."</span><span class="p">)</span>
+<span class="n">SpssClient</span><span class="p">.</span><span class="nc">StopClient</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"Finished."</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
 <p>P.S. Yes, I am aware of a performance bug in <code>export_chart</code> function where it parses the XMLs of each <code>OutputItem</code>.</p>

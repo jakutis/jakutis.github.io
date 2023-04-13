@@ -9,8 +9,8 @@
         
         
         <meta name="author" content="Vytautas Jakutis">
-        <link rel="stylesheet" href="/css/style-70a57252.css">
-        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?70a57252">
+        <link rel="stylesheet" href="/css/style-b29f7015.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css?b29f7015">
         <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
     </head>
     <body style="padding-top: 50px;" >
@@ -75,35 +75,35 @@ then after doing the following monkey-patching you can call the function <code>g
 28
 29
 30
-</pre></td><td class="code"><pre><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">async</span><span class="dl">'</span><span class="p">);</span>
+</pre></td><td class="code"><pre><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">async</span><span class="dl">'</span><span class="p">);</span>
 
 <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span> <span class="o">=</span> <span class="p">[];</span>
 
 <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">a</span><span class="p">.</span><span class="nx">setImmediate</span><span class="p">;</span>
 <span class="nx">a</span><span class="p">.</span><span class="nx">setImmediate</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">fn</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">stack</span> <span class="o">=</span> <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nx">slice</span><span class="p">();</span>
-    <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
-    <span class="nx">s</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">stack</span> <span class="o">=</span> <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nf">slice</span><span class="p">();</span>
+    <span class="nx">stack</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span><span class="k">new</span> <span class="nc">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
+    <span class="nf">s</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
         <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span> <span class="o">=</span> <span class="nx">stack</span><span class="p">;</span>
-        <span class="nx">fn</span><span class="p">();</span>
+        <span class="nf">fn</span><span class="p">();</span>
     <span class="p">});</span>
 <span class="p">};</span>
 
 <span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="nx">a</span><span class="p">.</span><span class="nx">nextTick</span><span class="p">;</span>
 <span class="nx">a</span><span class="p">.</span><span class="nx">nextTick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">fn</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">stack</span> <span class="o">=</span> <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nx">slice</span><span class="p">();</span>
-    <span class="nx">stack</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
-    <span class="nx">n</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">stack</span> <span class="o">=</span> <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nf">slice</span><span class="p">();</span>
+    <span class="nx">stack</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span><span class="k">new</span> <span class="nc">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
+    <span class="nf">n</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
         <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span> <span class="o">=</span> <span class="nx">stack</span><span class="p">;</span>
-        <span class="nx">fn</span><span class="p">();</span>
+        <span class="nf">fn</span><span class="p">();</span>
     <span class="p">});</span>
 <span class="p">};</span>
 
 <span class="nb">global</span><span class="p">.</span><span class="nx">printStack</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">stack</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">stack</span><span class="p">);</span>
+    <span class="nb">global</span><span class="p">.</span><span class="nx">previousStack</span><span class="p">.</span><span class="nf">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">stack</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">stack</span><span class="p">);</span>
     <span class="p">});</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">new</span> <span class="nb">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="k">new</span> <span class="nc">Error</span><span class="p">().</span><span class="nx">stack</span><span class="p">);</span>
 <span class="p">};</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
